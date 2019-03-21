@@ -5,7 +5,15 @@ use List::MoreUtils qw/ uniq /;
 use Array::Utils qw(:all);
 use Cwd;
 #./interproscan.sh -appl <pickprogram> -i /home/cristig/Desktop/Homeodomains/All.fasta -b /home/cristig/Desktop/Homeodomains/all.interpro
-
+my @remove = qw (hsap
+	ggal
+	xtro
+	drer
+	bflo
+	dmel
+	tcas
+	cele
+);
 my $fastafile = "";
 my $blastfile = "";
 my $interprofile = "";
@@ -19,9 +27,6 @@ my $HG;
 if ($fastafile =~ /\/([0-9]+)\.fasta$/) {
 	$HG = $1;
 }
-#if ($HG == 62) {
-#	exit;
-#}
 print "Analaysing top $HG blasts...\n\n";
 my @topblast = blast_determination($blastfile,$HG);
 print "Top $HG blasts analysed.\n\nAnalysing top $HG interpros...\n\n";
@@ -31,7 +36,7 @@ my %classifieds = ();
 my %topblast = ();
 my %topinterpro = ();
 my %allheaders = ();
-my @homeoclasses = `grep -v "Conserved Motifs" HomeoboxClass.csv`;
+my @homeoclasses = `grep -v "Conserved Motifs" HomeoDBClass.csv`;
 #### When comparing blast and interpro - interpro to override any result for any organism not metazoan.
 foreach my $queries (@topblast) {
 	chomp $queries;
@@ -48,7 +53,8 @@ foreach my $header (@fastaheader) {
 	chomp $header;
 	$header =~ s/>//g;
 	my $gene = "Unknown";
-	my ($homology,$gene2,$species,$count) = split /_/, $header;
+	#my ($homology,$gene2,$species,$count) = split /_/, $header;
+	my ($species,$origheader,$homology,$count) = split /|/, $header;
 	my $specstring = `grep -h ',$species,' phylogenyTable.csv`;
 	my $family = "Unknown";
 	my $class = "Unknown";
@@ -60,109 +66,116 @@ foreach my $header (@fastaheader) {
 	else {
 		$group = $specarray[6];
 	}
-	my $homeoclasscsv = "HomeoboxClass.csv";
+	my $homeoclasscsv = "HomeoDBClass.csv";
 	if ($specstring =~ /Lophotrochozoa/) {
 		$homeoclasscsv = "HomeoboxClassLopho.csv";
 	}
-	if ($specstring =~ m/(Uniprot|EnsEMBL)/) {
-		my $orig = `grep '$header' fastaCollection.log`;
-		if ($orig) {
-			my @orig = split / /, $orig;
-			if ($orig[0] =~ /^$species\_(.*)\_ENS/) {
-				$gene = $1;
-			}
-			elsif ($orig[0] =~ /^$species\_tr.*GN=([A-Za-z0-9]+)_.*/) {
-				$gene = $1;
-			}
-		}
-		else {
-			$gene = "-";
-		}
-		if ($gene =~ /([A-Za-z]+)/) {
-			my $pattern = build_partial($gene,3);
-			if (my $homeo = `grep -E -h "$pattern" $homeoclasscsv`) {
-				($class, $family, my $motifs, my $end) = split /,/, $homeo;
-				$family = $gene;
-			}
-			else {
-				if ($specstring !~ /Metazoa/) {
-					if (exists $topinterpro{$header}) {
-						$topinterpro{$header} =~ s/ domain//g;
-						$topinterpro{$header} =~ s/Transcription factor//g;
-						$topinterpro{$header} =~ s/,//g;
-						$topinterpro{$header} =~ s/superfamily//g;
-						$topinterpro{$header} =~ s/family//g;
-						$pattern = build_partial($topinterpro{$header},3);
-						if (my $homeo = `grep -E -h "$pattern" $homeoclasscsv`) {
-							($class, $family, my $motifs) = split /,/, $homeo;
-						}
-					}	
-				}
-				elsif (exists $topblast{$header}) {
-					(my $blastspec, my $subfamily, $family, $class) = split /\|/, $topblast{$header};
-					if (my $homeo = `grep -E -h "$family" $homeoclasscsv`) {
-						($class, $family, my $motifs) = split /,/, $homeo;
-					}
-				}
-				else {
-					if (exists $topinterpro{$header}) {
-						$topinterpro{$header} =~ s/ domain//g;
-						$topinterpro{$header} =~ s/Transcription factor//g;
-						$topinterpro{$header} =~ s/,//g;
-						$topinterpro{$header} =~ s/superfamily//g;
-						$topinterpro{$header} =~ s/family//g;
-						$pattern = build_partial($topinterpro{$header},3);
-						$family = $gene;
-						if (my $homeo = `grep -E -h "$pattern" $homeoclasscsv`) {
-							($class, my $family2, my $motifs) = split /,/, $homeo;
-						}
-					}	
-				}
-			}
+	#if ($specstring =~ m/(Uniprot|EnsEMBL)/) {
+	#	my $orig = `grep '$header' fastaCollection.log`;
+	#	if ($orig) {
+	#		my @orig = split / /, $orig;
+	#		if ($orig[0] =~ /^$species\_(.*)\_ENS/) {
+	#			$gene = $1;
+	#		}
+	#		elsif ($orig[0] =~ /^$species\_tr.*GN=([A-Za-z0-9]+)_.*/) {
+	#			$gene = $1;
+	#		}
+	#	}
+	#	else {
+	#		$gene = "-";
+	#	}
+	#	if ($gene =~ /([A-Za-z]+)/) {
+	#		my $pattern = build_partial($gene,3);
+	#		if (my $homeo = `grep -E -h "$pattern" $homeoclasscsv`) {
+	#			($class, $family, my $motifs, my $end) = split /,/, $homeo;
+	#			$family = $gene;
+	#		}
+	#		else {
+	#			if ($specstring !~ /Metazoa/) {
+	#				if (exists $topinterpro{$header}) {
+	#					$topinterpro{$header} =~ s/ domain//g;
+	#					$topinterpro{$header} =~ s/Transcription factor//g;
+	#					$topinterpro{$header} =~ s/,//g;
+	#					$topinterpro{$header} =~ s/superfamily//g;
+	#					$topinterpro{$header} =~ s/family//g;
+	#					$pattern = build_partial($topinterpro{$header},3);
+	#					if (my $homeo = `grep -E -h "$pattern" $homeoclasscsv`) {
+	#						($class, $family, my $motifs) = split /,/, $homeo;
+	#					}
+	#				}	
+	#			}
+	#			elsif (exists $topblast{$header}) {
+	#				(my $blastspec, my $subfamily, $family, $class) = split /\|/, $topblast{$header};
+	#				if (my $homeo = `grep -E -h "$family" $homeoclasscsv`) {
+	#					($class, $family, my $motifs) = split /,/, $homeo;
+	#				}
+	#			}
+	#			else {
+	#				if (exists $topinterpro{$header}) {
+	#					$topinterpro{$header} =~ s/ domain//g;
+	#					$topinterpro{$header} =~ s/Transcription factor//g;
+	#					$topinterpro{$header} =~ s/,//g;
+	#					$topinterpro{$header} =~ s/superfamily//g;
+	#					$topinterpro{$header} =~ s/family//g;
+	#					$pattern = build_partial($topinterpro{$header},3);
+	#					$family = $gene;
+	#					if (my $homeo = `grep -E -h "$pattern" $homeoclasscsv`) {
+	#						($class, my $family2, my $motifs) = split /,/, $homeo;
+	#					}
+	#				}	
+	#			}
+	#		}
+	#	}
+	#	else {
+	#		$gene = "Unknown";
+	#		$family = "Unknown";
+	#	}
+	#}
+	unless ( grep( /^$species$/, @remove ) ) {
+		my $box = header_match($origheader);
+		if ($box != 0) {
+			my $homeo = `grep -E "$box" $homeoclasscsv`;
+			($class, $family, my $motifs, $gene) = split /,/, $homeo;
 		}
 		else {
 			$gene = "Unknown";
-			$family = "Unknown";
-		}
-	}
-	else {
-		$gene = "Unknown";
-		if ($specstring !~ /Metazoa/) {
-			if (exists $topinterpro{$header}) {
-				$topinterpro{$header} =~ s/ domain//g;
-				$topinterpro{$header} =~ s/Transcription factor//g;
-				$topinterpro{$header} =~ s/,//g;
-				$topinterpro{$header} =~ s/superfamily//g;
-				$topinterpro{$header} =~ s/family//g;
-				my $pattern = build_partial($topinterpro{$header},3);
-				if (my $homeo = `grep -E -h "$pattern" $homeoclasscsv`) {
+			if ($specstring !~ /Metazoa/) {
+				if (exists $topinterpro{$header}) {
+					$topinterpro{$header} =~ s/ domain//g;
+					$topinterpro{$header} =~ s/Transcription factor//g;
+					$topinterpro{$header} =~ s/,//g;
+					$topinterpro{$header} =~ s/superfamily//g;
+					$topinterpro{$header} =~ s/family//g;
+					my $pattern = build_partial($topinterpro{$header},3);
+					if (my $homeo = `grep -E -h "$pattern" $homeoclasscsv`) {
+						($class, $family, my $motifs, $gene) = split /,/, $homeo;
+					}
+				}	
+			}
+			elsif (exists $topblast{$header}) {
+				(my $blastspec, my $subfamily, $family, $class) = split /\|/, $topblast{$header};
+				if (my $homeo = `grep -E -h "$family" $homeoclasscsv`) {
 					($class, $family, my $motifs) = split /,/, $homeo;
 				}
-			}	
-		}
-		elsif (exists $topblast{$header}) {
-			(my $blastspec, my $subfamily, $family, $class) = split /\|/, $topblast{$header};
-			if (my $homeo = `grep -E -h "$family" $homeoclasscsv`) {
-				($class, $family, my $motifs) = split /,/, $homeo;
+			}
+			else {
+				if (exists $topinterpro{$header}) {
+					$topinterpro{$header} =~ s/ domain//g;
+					$topinterpro{$header} =~ s/Transcription factor//g;
+					$topinterpro{$header} =~ s/,//g;
+					$topinterpro{$header} =~ s/superfamily//g;
+					$topinterpro{$header} =~ s/family//g;
+					my $pattern = build_partial($topinterpro{$header},3);
+					if (my $homeo = `grep -E -h "$pattern" $homeoclasscsv`) {
+						($class, $family, my $motifs) = split /,/, $homeo;
+					}
+				}	
 			}
 		}
-		else {
-			if (exists $topinterpro{$header}) {
-				$topinterpro{$header} =~ s/ domain//g;
-				$topinterpro{$header} =~ s/Transcription factor//g;
-				$topinterpro{$header} =~ s/,//g;
-				$topinterpro{$header} =~ s/superfamily//g;
-				$topinterpro{$header} =~ s/family//g;
-				my $pattern = build_partial($topinterpro{$header},3);
-				if (my $homeo = `grep -E -h "$pattern" $homeoclasscsv`) {
-					($class, $family, my $motifs) = split /,/, $homeo;
-				}
-			}	
-		}
+		my $newheader =  "$species|$group|$family|$class|$homology|$count";
+		$newheader =~ s{\\}{-}g;
+		$classifieds{$header} = $newheader;
 	}
-	my $newheader =  "$species|$group|$family|$class|$homology|$count";
-	$newheader =~ s{\\}{-}g;
-	$classifieds{$header} = $newheader;
 }
 print "Almost done...\n\n";
 unless (-d "LOG") {
@@ -298,5 +311,16 @@ sub interpro_determination {
 	print "4. Interproscan top results determined\n\n";
 	return @bestentries;
 	
+}
+sub header_match {
+	my $header = shift;
+	my @boxes = qw (ZHX1 ZHX2 ZHX3 Abox Barhl Barx Bsx Cdx Dbx Dlx Emx En Evx Gbx Gsx Hhex Hlx Hox1 Hox2 Hox3 Hox4 Hox5 Hox6-8 Hox9-13(15) Lbx Meox Mnx Nanog Nedx Nk1 Nk2.1 Nk2.2 Nk3 Nk4 Nk5/Hmx Nk6 Nk7 Noto Pdx Tlx Vax Ventx Cux Onecut Satb Hmbox Hnf1 Isl Lhx1/5 Lhx2/9 Lhx3/4 Lhx6/8 Lmx Bix NANOGNB Sia Hdx Pou1 Pou2 Pou3 Pou4 Pou5 Pou6 Pou2 Alx Argfx Arx Dmbx Dprx Drgx Dux Esx Gsc Hesx Hopx Isx Leutx Mix Nobox Otp Pax3/7 Pax4/6 Phox Pitx Prop Prrx Rax Rhox Sebox Shox Tprx Uncx Vsx Prox Six1/2 Six3/6 Six4/5 Irx Meis Mkx Pbx Pknox Tgif Adnp Tshz Zeb Zfhx Zhx/Homez);
+	my $match = 0;
+	foreach my $box (@boxes) {
+		if ($header =~ /$box/i) {
+			$match = $box;
+		}
+	}
+	return $match;
 }
 exit;

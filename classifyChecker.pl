@@ -18,7 +18,7 @@ foreach my $header (@headers) {
 		($spec,$kingdom,$family,$class,$HG,$uid) = split /\|/, $header;
 		$spec =~ s/^>//;
 		if ($family eq $class) {
-			my ($Class,$Family,$cm,$End) = split /,/, `grep -i '$family' HomeoboxClass.csv`;
+			my ($Class,$Family,$cm,$End) = split /,/, `grep -i '$family' HomeoDBClass.csv`;
 			if ($Class) {
 				#$homeobox{"$class|$family"} = "$Class|$Family";
 			}
@@ -38,7 +38,7 @@ foreach my $header (@headers) {
 			$kingdom =~ s{\/}{-}g;
 			$spec{$spec} = "$spec|$kingdom";
 			if ($family eq $class) {
-				my ($Class,$Family,$cm,$End) = split /,/, `grep -i '$family' HomeoboxClass.csv`;
+				my ($Class,$Family,$cm,$End) = split /,/, `grep -i '$family' HomeoDBClass.csv`;
 				if ($Class) {
 					$homeobox{"$class|$family"} = "$Class|$Family";
 				}

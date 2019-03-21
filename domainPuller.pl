@@ -2,7 +2,7 @@
 use strict;
 use List::MoreUtils qw/ uniq /;
 
-my $domains = `cat HomeoboxClass*.csv | grep -v 'Family' | sed 's/,End//g'`;
+my $domains = `cat Homeo*Class*.csv | grep -v 'Family' | sed 's/,End//g'`;
 my @domains = split /[\n,]/, $domains;
 push @domains, "Homeobox";
 my @domain = uniq @domains;

@@ -20,33 +20,35 @@ foreach my $term(@listofterms) {
 	chomp $term;
 	my $term2 = $term;
 	$term2 =~ s/ /_/g;
-	#my @homologys = `echo 'SELECT DISTINCT Homology FROM geneontology WHERE Family LIKE \"%$term%\" AND Homology IN (SELECT DISTINCT Homology FROM genescollected WHERE Header LIKE \"%$term2%\") ORDER BY Homology ASC;' | mysql -B -uweb ComparativeGenomics | tail -n+2`;
-	my @homologys = `echo 'SELECT DISTINCT Homology FROM geneontology WHERE Family LIKE \"%$term%\" ORDER BY Homology ASC;' | mysql -B -uweb ComparativeGenomics | tail -n+2`;
+	my @homologys = `echo 'SELECT DISTINCT Homology FROM geneontology WHERE Family LIKE \"%$term%\" AND Homology IN (SELECT DISTINCT Homology FROM genescollected WHERE Header LIKE \"%$term2%\") ORDER BY Homology ASC;' | mysql -B -uweb ComparativeGenomics | tail -n+2`;
+	#my @homologys = `echo 'SELECT DISTINCT Homology FROM geneontology WHERE Family LIKE \"%$term%\" ORDER BY Homology ASC;' | mysql -B -uweb ComparativeGenomics | tail -n+2`;
+	#my @homologys = `echo 'SELECT DISTINCT Homology FROM genescollected WHERE Header REGEXP "";' | mysql -B -uweb ComparativeGenomics | tail -n+2`;
 	foreach my $homology (@homologys) {
 		chomp $homology;
-		#my $count = `echo "SELECT COUNT(Header) AS Total FROM genescollected WHERE Homology=$homology AND Header LIKE '%$term2%' GROUP BY Homology;" | mysql -B -uweb ComparativeGenomics | tail -n+2`;
-		#if ($count > 2) {
-		my $genes = `echo 'SELECT DISTINCT Genes FROM geneontology WHERE NOT Genes REGEXP "_" AND Family REGEXP "homeobox family" AND Genes NOT LIKE "v%" AND NOT Genes LIKE "Loc%" AND Homology=$homology LIMIT 1;'| mysql -B -uweb ComparativeGenomics | tail -n+2`; 
-		$genes =~ s/^ //;
-		if ($genes =~ / /) {
-			my @genes = split / /, $genes;
-			$genes = $genes[0];
-		}
-		chomp $genes;
-		$genes = ucfirst($genes);
-		$genes{$homology} = $genes;
-		if ($genes =~ /[A-Za-z]/) {
-			push @homologygroups, "$homology";
-		}
+		my $count = `echo "SELECT COUNT(Header) AS Total FROM genescollected WHERE Homology=$homology AND Header LIKE '%$term2%' GROUP BY Homology;" | mysql -B -uweb ComparativeGenomics | tail -n+2`;
+		if ($count > 2) {
+		#my $genes = `echo 'SELECT DISTINCT Genes FROM geneontology WHERE NOT Genes REGEXP "_" AND Family REGEXP "homeobox family" AND Genes NOT LIKE "v%" AND NOT Genes LIKE "Loc%" AND Homology=$homology LIMIT 1;'| mysql -B -uweb ComparativeGenomics | tail -n+2`; 
+		#$genes =~ s/^ //;
+		#if ($genes =~ / /) {
+		#	my @genes = split / /, $genes;
+		#	$genes = $genes[0];
 		#}
+		#chomp $genes;
+		#$genes = ucfirst($genes);
+		#$genes{$homology} = $genes;
+		#if ($genes =~ /[A-Za-z]/) {
+			push @homologygroups, "$homology";
+		#}
+		}
 	}
 }
 push @occupancy, `head -n 1 $occupancytable`;
 @homologygroups = uniq(@homologygroups);
-open(LOG, ">fastaCollection.log");
+#@homologygroups = qw(2282 1077 29);
+#open(LOG, ">fastaCollection.log");
 foreach my $homology (@homologygroups) {
 	chomp $homology;
-	print "$homology ",$genes{$homology}, "\n";
+	#print "$homology ",$genes{$homology}, "\n";
 	#my ($homology,$gene) = split /,/, $homologys;
 	my $occupancy = `grep "^$homology," $occupancytable`;
 	chop $occupancy;
@@ -58,20 +60,22 @@ foreach my $homology (@homologygroups) {
 		chomp $fasta;
 		$count++;
 		my ($header,$sequence) = split /\t/, $fasta;
-		my $spec = "";
-		if ($header =~ /(^[A-Za-z0-9]{4})\_/) {
-			$spec = $1;
-		}
+		#my $spec = "";
+		#if ($header =~ /(^[A-Za-z0-9]{4})\_/) {
+		#	$spec = $1;
+		#}
 		chomp $header; chomp $sequence;
-		my $gene = $genes{$homology};
-		if ($header =~ /^[A-Za-z0-9]{4}\_(.*)_ENS/) {
-			$gene = $1;
-		}
-		print LOG "$header -> >$homology"."_$gene"."_$spec"."_$count\n";
-		$hasta{">$homology"."_$gene"."_$spec"."_$count"} = $sequence;
+		#my $gene = $genes{$homology};
+		my $gene;
+		#if ($header =~ /^[A-Za-z0-9]{4}\_(.*)_ENS/) {
+		#	$gene = $1;
+		#}
+		#print LOG "$header -> >$homology"."_$gene"."_$spec"."_$count\n";
+		$header =~ s/[\-\|\.,]/_/g;
+		$hasta{">$header|$homology|$count"} = $sequence;
 	}
 }
-close(LOG);
+#close(LOG);
 open(FASTA, ">$fastafile");
 print FASTA join("\n", @occupancy), "\n";
 close(FASTA);

@@ -39,7 +39,17 @@ Then run the trees:
 `treebuilder.pl <FastaDir>`
 `SortFastaMore.pl <Intermediate File Directory with alignments>` To remove duplicate domains after trimming ahead of iqtree.
 
+Final classification step:
+
+`./homeoTreeParser.pl <IntermediateFiles> <classificationTable.tsv>` With directory containing all inferred trees in Newick format, and classificationTable.tsv as current classification log as verbose output from classifyWrapper.pl.
+
 ## Further graphical analyses
+
+`./allhbxcounttable.pl TreeFiles > hbxCount.csv`
+`./homeocountconvert.pl hbxCount.csv > hbxCountMelt.csv`
+`./tempHbx.pl hbxCountMelt.csv`
+`./tempHbx.pl hbxCountMelt.csv > hbxOrigins.csv`
+`./lossGainhbx.pl hbxCountMelt.csv > hbxLossGain.csv`
 
 
 

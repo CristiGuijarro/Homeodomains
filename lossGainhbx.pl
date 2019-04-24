@@ -12,11 +12,24 @@ my %trueancestral = ();
 my %lost = ();
 my %novel = ();
 my %order = ();
+my %homeos = (
+	Human => "Homo sapiens",
+	Beetle => "Tribolium castaneum",
+	Amphioxus => "Branchiostoma floridae",
+	Frog => "Xenopus tropicalis",
+	Chicken => "Gallus gallus",
+	Fruitfly => "Drosophila melanogaster",
+	Zebrafish => "Danio rerio",
+	Nematode => "Caenorhabditis elegans",
+);
 my $cladename = $_[0];
 my $clade = $_[1];
 foreach my $count (@recounts) {
 	chomp $count;
 	my ($species, $groups, $geneclass, $genefamily, $count) = split /,/, $count;
+	if ($homeos{$species}) {
+		$species = $homeos{$species};
+	}
 	my $phylogeny = `grep '$species' phylogenyTable.csv`;
 	$phylogeny =~ s/\t//g;
 	my @array1 = split /,/, $phylogeny;

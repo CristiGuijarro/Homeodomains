@@ -14,9 +14,9 @@ my @therest = split /\n/, $therest;
 foreach (my $i = 0; $i < @hbxclass; $i++) {
 	chomp $hbxclass[$i];
 	chomp $hbxfam[$i];
-	if ($hbxfam[$i] =~ /^([A-Z][a-z]+).*/) {
-		$hbxfam[$i] = $1;
-	}
+	#if ($hbxfam[$i] =~ /^([A-Z][a-z]+).*/) {
+	#	$hbxfam[$i] = $1;
+	#}
 	$hbxclass[$i].=",$hbxfam[$i]";
 }
 foreach my $counts (@therest) {

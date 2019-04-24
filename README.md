@@ -1,5 +1,7 @@
 # Homeodomains
 
+## Pipeline
+
 Begin by collecting the sequences of interest, in this case all animal homeobox proteins:
 
 `./fastaCollection.pl --terms "Homeobox,Homeodomain,ANTP,PRD,LIM,POU,HNF,SINE,TALE,CUT,PROS,ZF,CERS" --fastafile "<file>.csv" --occfile "<file>.fasta"`
@@ -36,5 +38,8 @@ Then run the trees:
 
 `treebuilder.pl <FastaDir>`
 `SortFastaMore.pl <Intermediate File Directory with alignments>` To remove duplicate domains after trimming ahead of iqtree.
+
+## Further graphical analyses
+
 
 

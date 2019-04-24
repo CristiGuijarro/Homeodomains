@@ -1,856 +1,872 @@
+ZF,Zhx/Homez,zinc fingers and homeoboxes 3,zhx3
 ANTP,Abox,C. Elegans Homeobox 19,ceh-19
-ANTP,Abox,Absent from Olfactores Homeobox,Abox
-ANTP,Abox,Absent from Olfactores Homeobox,Abox
-ANTP,Barhl,C. Elegans Homeobox 30,ceh-30
-ANTP,Barhl,C. Elegans Homeobox 31,ceh-31
-ANTP,Barhl,BarH-like homeobox 2,BARHL2
-ANTP,Barhl,BarH-like homeobox 1,BARHL1
-ANTP,Barhl,BarH-like homeobox 1,barhl1
-ANTP,Barhl,BarH-like homeobox 2,barhl2
-ANTP,Barx,BarH-like homeobox 1,barx1
-ANTP,Barx,BarH-like homeobox 2,barx2
-ANTP,Barx,BARX homeobox 1,BARX1
-ANTP,Barx,BARX homeobox 2,BARX2
-ANTP,Barx,BARX homeobox 2,barx2
-ANTP,Barx,BARX homeobox 1,barx1
-ANTP,Barx,BARX homeobox 2,BARX2
-ANTP,Bsx,brain specific homeobox,bsx
-ANTP,Bsx,brain specific homeobox,BSX
-ANTP,Bsx,Brain-specific homeobox,Bsh
-ANTP,Bsx,brain-specific homeobox,bsh
-ANTP,Bsx,brain-specific homeobox,bsx
-ANTP,Bsx,brain-specific homeobox,BSX
-ANTP,Bsx,Brain-specific homeobox,Bsh
-ANTP,Cdx,caudal type homeobox 1 b,cdx1b
-ANTP,Cdx,caudal type homeobox 1,CDX1
-ANTP,Cdx,caudal type homeobox 2,CDX2
-ANTP,Cdx,caudal type homeobox 4,CDX4
-ANTP,Cdx,caudal type homeobox 2,cdx2
-ANTP,Cdx,caudal type homeobox 1,cdx1 
-ANTP,Cdx,caudal type homeobox 4,cdx4
-ANTP,Cdx,caudal type homeobox 2,CDX2
-ANTP,Cdx,caudal type homeobox 4,CDX4
-ANTP,Cdx,caudal type homeobox 4 duplication,CDX4-2
-ANTP,Cdx,caudal type homeobox 1,CDX1
-ANTP,Dbx,developing brain homeobox 1a,dbx1a
-ANTP,Dbx,developing brain homeobox 1b,dbx1b
-ANTP,Dbx,developing brain homeobox 2,dbx2
-ANTP,Dbx,developing brain homeobox 1,DBX1
-ANTP,Dbx,developing brain homeobox 2,DBX2
-ANTP,Dbx,Developing brain homeobox,Dbx
-ANTP,Dbx,developing brain homeobox 1,dbx1
-ANTP,Dbx,developing brain homeobox 2,dbx2
-ANTP,Dbx,developing brain homeobox 2,DBX2
-ANTP,Dbx,developing brain homeobox 1,DBX1
-ANTP,Dbx,Developing brain homeobox,Dbx
-ANTP,Dlx,distal-less homeobox gene 2b,dlx2b
-ANTP,Dlx,distal-less homeobox gene 4a,dlx4a
-ANTP,Dlx,distal-less homeobox gene 1a,dlx1a
-ANTP,Dlx,distal-less homeobox gene 2a,dlx2a
-ANTP,Dlx,distal-less homeobox gene 3b,dlx3b
-ANTP,Dlx,distal-less homeobox gene 4b,dlx4b
-ANTP,Dlx,distal-less homeobox gene 6a,dlx6a
-ANTP,Dlx,distal-less homeobox gene 5a,dlx5a
-ANTP,Dlx,C. Elegans Homeobox 43,ceh-43
-ANTP,Dlx,distal-less homeobox 1,DLX1
-ANTP,Dlx,distal-less homeobox 2,DLX2
-ANTP,Dlx,distal-less homeobox 3,DLX3
-ANTP,Dlx,distal-less homeobox 4,DLX4
-ANTP,Dlx,distal-less homeobox 5,DLX5
-ANTP,Dlx,distal-less homeobox 6,DLX6
-ANTP,Dlx,distal-less homeobox 5,dlx5
-ANTP,Dlx,distal-less homeobox 6,dlx6
-ANTP,Dlx,distal-less homeobox 4,dlx4
-ANTP,Dlx,distal-less homeobox 3,dlx3
-ANTP,Dlx,distal-less homeobox 2,dlx2
-ANTP,Dlx,distal-less homeobox 1,dlx1
-ANTP,Dlx,distal-less homeobox 5,DLX5
-ANTP,Dlx,distal-less homeobox 6,DLX6
-ANTP,Dlx,distal-less homeobox 1,DLX1
-ANTP,Emx,empty spiracles homeobox 1,emx1
-ANTP,Emx,empty spiracles homeobox 2,emx2
-ANTP,Emx,empty spiracles homeobox 3,emx3
-ANTP,Emx,C. Elegans Homeobox 23,ceh-23
-ANTP,Emx,C. Elegans Homeobox 2,ceh-2
-ANTP,Emx,empty spiracles homeobox 1 like,emx1-l
-ANTP,Emx,"empty spiracles homeobox 1, gene 2",emx1.2
-ANTP,Emx,empty spiracles homeobox 2,emx2
-ANTP,Emx,empty spiracles homeobox 1,emx1
-ANTP,Emx,empty spiracles homeobox 1,EMX1
-ANTP,Emx,empty spiracles homeobox 2,EMX2
-ANTP,En,C. Elegans Homeobox 16,ceh-16
-ANTP,En,engrailed homeobox 1 eh1,EN1
-ANTP,En,engrailed homeobox 2 eh2,EN2
-ANTP,En,engrailed homeobox 2 eh2,en2
-ANTP,En,engrailed homeobox 1 eh1,en1
-ANTP,En,engrailed homeobox 1 eh1,EN1
-ANTP,Evx,even-skipped homeobox 1,evx1
-ANTP,Evx,even-skipped homeobox 2,evx2
-ANTP,Evx,even-skipped homeobox homolog 1,EVX1
-ANTP,Evx,even-skipped homeobox homolog 2,EVX2
-ANTP,Evx,even-skipped homeobox 2,evx2
-ANTP,Evx,even-skipped homeobox 1,evx1
-ANTP,Evx,even-skipped homeobox 1,EVX1
-ANTP,Evx,even-skipped homeobox 2,EVX2
-ANTP,Gbx,gastrulation brain homeobox 1,gbx1
-ANTP,Gbx,gastrulation brain homeobox 2,GBX2
-ANTP,Gbx,gastrulation brain homeobox 1,GBX1
-ANTP,Gbx,gastrulation brain homeobox 1,gbx1
-ANTP,Gbx,"gastrulation brain homeobox 2, gene 1",gbx2.1
-ANTP,Gbx,"gastrulation brain homeobox 2, gene 2",gbx2.2
-ANTP,Gbx,gastrulation brain homeobox 1,GBX1
-ANTP,Gbx,gastrulation brain homeobox 2,GBX2
-ANTP,Gsx,GS homeobox 1,gsx1
-ANTP,Gsx,GS homeobox 2,gsx2
-ANTP,Gsx,GS homeobox 1,GSX1
-ANTP,Gsx,GS homeobox 2,GSX2
-ANTP,Gsx,GS homeobox 1,gsx1
-ANTP,Gsx,GS homeobox 2,gsx2
-ANTP,Hhex,hematopoietically expressed homeobox,hhex
-ANTP,Hhex,hematopoietically expressed homeobox,HHEX
-ANTP,Hhex,hematopoietically expressed homeobox,hhex
-ANTP,Hhex,hematopoietically expressed homeobox like,hhex-l
-ANTP,Hhex,hematopoietically expressed homeobox,HHEX
-ANTP,Hlx,H2.0-like homeobox 1,HLX
-ANTP,Hlx,H2.0-like homeobox,hlx1
-ANTP,Hox1,C. Elegans Homeobox 13,ceh-13
-ANTP,Hox1,homeobox A1,HOXA1
-ANTP,Hox1,homeobox B1,HOXB1
-ANTP,Hox1,homeobox D1,HOXD1
-ANTP,Hox1,homeobox B1,hoxb1
-ANTP,Hox1,homeobox A1,hoxa1
-ANTP,Hox1,homeobox D1,hoxd1
-ANTP,Hox1,homeobox A1,HOXA1
-ANTP,Hox1,homeobox D1,HOXD1
-ANTP,Hox1,homeobox B1,HOXB1
-ANTP,Hox2,homeobox A2,HOXA2
-ANTP,Hox2,homeobox B2,HOXB2
-ANTP,Hox2,homeobox A2,hoxa2
-ANTP,Hox2,homeobox B2,hoxb2
-ANTP,Hox2,homeobox B2,HOXB2
-ANTP,Hox3,homeobox A3,HOXA3
-ANTP,Hox3,homeobox B3,HOXB3
-ANTP,Hox3,homeobox D3,HOXD3
-ANTP,Hox3,homeobox D3,hoxd3
-ANTP,Hox3,homeobox A3,hoxa3
-ANTP,Hox3,homeobox B3,hoxb3
-ANTP,Hox3,homeobox C3,hoxc3
-ANTP,Hox3,homeobox A3,HOXA3
-ANTP,Hox3,homeobox D3,HOXD3
-ANTP,Hox3,homeobox B3,HOXB3
-ANTP,Hox4,homeobox A4,HOXA4
-ANTP,Hox4,homeobox B4,HOXB4
-ANTP,Hox4,homeobox C4,HOXC4
-ANTP,Hox4,homeobox D4,HOXD4
-ANTP,Hox4,homeobox A4,Hoxa4
-ANTP,Hox4,homeobox B4,hoxb4
-ANTP,Hox4,homeobox C4,hoxc4
-ANTP,Hox4,homeobox D4,hoxd4
-ANTP,Hox4,homeobox A4,HOXA4
-ANTP,Hox4,homeobox D4,HOXD4
-ANTP,Hox4,homeobox C4,Hoxc4
-ANTP,Hox5,homeobox A5,HOXA5
-ANTP,Hox5,homeobox B5,HOXB5
-ANTP,Hox5,homeobox C5,HOXC5
-ANTP,Hox5,homeobox C5,hoxc5
-ANTP,Hox5,homeobox A5,hoxa5
-ANTP,Hox5,homeobox B5,hoxb5
-ANTP,Hox5,possibly homeobox A5,gga_chr02.1
-ANTP,Hox5,homeobox B5,HOXB5
-ANTP,Hox6-8,homeobox A6,HOXA6
-ANTP,Hox6-8,homeobox A7,HOXA7
-ANTP,Hox6-8,homeobox B6,HOXB6
-ANTP,Hox6-8,homeobox B7,HOXB7
-ANTP,Hox6-8,homeobox B8,HOXB8
-ANTP,Hox6-8,homeobox C6,HOXC6
-ANTP,Hox6-8,homeobox C8,HOXC8
-ANTP,Hox6-8,homeobox D8,HOXD8
-ANTP,Hox6-8,homeobox C6,hoxc6 
-ANTP,Hox6-8,homeobox B7,hoxb7
-ANTP,Hox6-8,homeobox B8,hoxb8
-ANTP,Hox6-8,homeobox B6,hoxb6
-ANTP,Hox6-8,homeobox A7,hoxa7
-ANTP,Hox6-8,homeobox A6,hoxa6
-ANTP,Hox6-8,homeobox C8,hoxc8
-ANTP,Hox6-8,homeobox D8,hoxd8
-ANTP,Hox6-8,homeobox A7,HOXA7
-ANTP,Hox6-8,homeobox A6,HOXA6
-ANTP,Hox6-8,homeobox D8,HOXD8
-ANTP,Hox6-8,homeobox B8,HOXB8
-ANTP,Hox6-8,homeobox -7,Hox-7
-ANTP,Hox6-8,homeobox -6,Hox-6
-ANTP,Hox9-13(15),homeobox protein Hox-C10a-like,hoxc10a
-ANTP,Hox9-13(15),homeobox A10,HOXA10
-ANTP,Hox9-13(15),homeobox A11,HOXA11
-ANTP,Hox9-13(15),homeobox A13,HOXA13
-ANTP,Hox9-13(15),homeobox D13,HOXD13
-ANTP,Hox9-13(15),homeobox A9,HOXA9
-ANTP,Hox9-13(15),homeobox B13,HOXB13
-ANTP,Hox9-13(15),homeobox B9,HOXB9
-ANTP,Hox9-13(15),homeobox C10,HOXC10
-ANTP,Hox9-13(15),homeobox C11,HOXC11
-ANTP,Hox9-13(15),homeobox C12,HOXC12
-ANTP,Hox9-13(15),homeobox C13,HOXC13
-ANTP,Hox9-13(15),homeobox C9,HOXC9
-ANTP,Hox9-13(15),homeobox D10,HOXD10
-ANTP,Hox9-13(15),homeobox D11,HOXD11
-ANTP,Hox9-13(15),homeobox D12,HOXD12
-ANTP,Hox9-13(15),homeobox D9,HOXD9
-ANTP,Hox9-13(15),homeobox C13,hoxc13
-ANTP,Hox9-13(15),homeobox C10,hoxc10
-ANTP,Hox9-13(15),homeobox C9,hoxc9
-ANTP,Hox9-13(15),homeobox D13,hoxd13
-ANTP,Hox9-13(15),homeobox D11,hoxd11
-ANTP,Hox9-13(15),homeobox D10,hoxd10
-ANTP,Hox9-13(15),homeobox D9,hoxd9
-ANTP,Hox9-13(15),homeobox A10,hoxa10
-ANTP,Hox9-13(15),homeobox B9,hoxb9
-ANTP,Hox9-13(15),homeobox A13,hoxa13
-ANTP,Hox9-13(15),homeobox A11,hoxa11
-ANTP,Hox9-13(15),homeobox A9,hoxa9
-ANTP,Hox9-13(15),homeobox B9,hoxb10
-ANTP,Hox9-13(15),homeobox C12,hoxc12
-ANTP,Hox9-13(15),homeobox C11,hoxc11
-ANTP,Hox9-13(15),homeobox A11,HOXA11
-ANTP,Hox9-13(15),homeobox A9,HOXA9
-ANTP,Hox9-13(15),homeobox A10,HOXA10
-ANTP,Hox9-13(15),homeobox D13,HOXD13
-ANTP,Hox9-13(15),homeobox D12,HOXD12
-ANTP,Hox9-13(15),homeobox D11,HOXD11
-ANTP,Hox9-13(15),homeobox B13,HOXB13
-ANTP,Hox9-13(15),homeobox B9,HOXB9
-ANTP,Hox9-13(15),homeobox -10,Hox-10
-ANTP,Hox9-13(15),homeobox c11,Hoxc11
-ANTP,Hox9-13(15),Homeobox C10,Hoxc9
-ANTP,Hox9-13(15),homeobox C13,Hoxc13
-ANTP,Lbx,ladybird homeobox 1a,lbx1a
-ANTP,Lbx,ladybird homeobox 1b,lbx1b
-ANTP,Lbx,ladybird homeobox homolog 2,lbx2
-ANTP,Lbx,ladybird homeobox 2,LBX2
-ANTP,Lbx,ladybird homeobox 1,LBX1
-ANTP,Lbx,ladybird homeobox 1,lbx1
-ANTP,Meox,mesenchyme homeobox 1,meox1
-ANTP,Meox,mesenchyme homeobox 2-like,LOC556898
-ANTP,Meox,mesenchyme homeobox 1,MEOX1
-ANTP,Meox,mesenchyme homeobox 2,MEOX2
-ANTP,Meox,mesenchyme homeobox 2,meox2
-ANTP,Meox,mesenchyme homeobox 2,MEOX2
-ANTP,Meox,mesenchyme homeobox 1,MEOX1
-ANTP,Mnx,motor neuron and pancreas homeobox 1,mnx1
-ANTP,Mnx,C. Elegans Homeobox 12,ceh-12
-ANTP,Mnx,motor neuron and pancreas homeobox 1,MNX1
-ANTP,Mnx,motor neuron and pancreas homeobox 1,mnx1
-ANTP,Mnx,motor neuron and pancreas homeobox 1 like,mnx1-l
-ANTP,Mnx,motor neuron and pancreas homeobox 1,MNX1
-ANTP,Msx,muscle segment homeobox B,msxb
-ANTP,Msx,muscle segment homeobox C,msxc
-ANTP,Msx,muscle segment homeobox E,msxe
-ANTP,Msx,muscle segment homeobox A,msxa
-ANTP,Msx,muscle segment homeobox D,msxd
-ANTP,Msx,msh homeobox 2 pseudogene,MSX2P1
-ANTP,Msx,msh homeobox 1,MSX1
-ANTP,Msx,msh homeobox 2,MSX2
-ANTP,Msx,msh homeobox 1,msx1
-ANTP,Msx,msh homeobox 2,msx2
-ANTP,Msx,msh homeobox 1,MSX1
-ANTP,Msx,msh homeobox 2,MSX2
-ANTP,Nanog,Nanog homeobox pseudogene 2,NANOGP2
-ANTP,Nanog,Nanog homeobox pseudogene 3,NANOGP3
-ANTP,Nanog,Nanog homeobox pseudogene 4,NANOGP4
-ANTP,Nanog,Nanog homeobox pseudogene 5,NANOGP5
-ANTP,Nanog,Nanog homeobox pseudogene 6,NANOGP6
-ANTP,Nanog,Nanog homeobox pseudogene 7,NANOGP7
-ANTP,Nanog,Nanog homeobox pseudogene 8,NANOGP8
-ANTP,Nanog,Nanog homeobox pseudogene 9,NANOGP9
-ANTP,Nanog,Nanog homeobox pseudogene 10,NANOGP10
-ANTP,Nanog,Nanog homeobox pseudogene 11,NANOGP11
-ANTP,Nanog,Nanog homeobox pseudogene 1,NANOGP1
-ANTP,Nanog,Nanog homeobox,NANOG
-ANTP,Nedx,Next to distalless homeobox,Nedx
-ANTP,Nk1,C. Elegans Homeobox 1,ceh-1
-ANTP,Nk1,NK1 homeobox 1,NKX1-1
-ANTP,Nk1,NK1 homeobox 2,NKX1-2
-ANTP,Nk1,NK1 homeobox 2,nkx1-2
-ANTP,Nk1,NK1 homeobox 1,NKX1-1
-ANTP,Nk2.1,NK2 homeobox 1b,nkx2.1b
-ANTP,Nk2.1,NK2 homeobox 1a,nkx2.1a
-ANTP,Nk2.1,C. Elegans Homeobox 27,ceh-27
-ANTP,Nk2.1,C. Elegans Homeobox 24,ceh-24
-ANTP,Nk2.1,NK2 homeobox 1,NKX2-1
-ANTP,Nk2.1,NK2 homeobox 4,NKX2-4
-ANTP,Nk2.1,NK2 homeobox 1,nkx2-1
-ANTP,Nk2.1,NK2 homeobox 1-like a,nkx2-1a
-ANTP,Nk2.1,NK2 homeobox 1-like b,nkx2-1lb
-ANTP,Nk2.1,NK2 homeobox 4,nkx2-4
-ANTP,Nk2.1,NK2 homeobox 1,NKX2-1
-ANTP,Nk2.2,C. Elegans Homeobox 22,ceh-22 
-ANTP,Nk2.2,NK2 homeobox 2,NKX2-2
-ANTP,Nk2.2,NK2 homeobox 8,NKX2-8
-ANTP,Nk2.2,NK2 homeobox 8,nkx2-8
-ANTP,Nk2.2,NK2 homeobox 2,nkx2-2
-ANTP,Nk3,NK3 homeobox 1,nkx3-1
-ANTP,Nk3,NK3 homeobox 3,nkx3.3
-ANTP,Nk3,NK3 homeobox 2,nkx3.2
-ANTP,Nk3,NK3 homeobox 1,NKX3-1
-ANTP,Nk3,Nk3 homeobox 2,NKX3-2
-ANTP,Nk3,NK3 homeobox 2 like,nkx3-2l
-ANTP,Nk3,NK3 homeobox 1,nkx3-1
-ANTP,Nk3,NK3 homeobox 2,nkx3-2
-ANTP,Nk4,C. Elegans Homeobox 28,ceh-28
-ANTP,Nk4,NK2 homeobox 6,NKX2-6
-ANTP,Nk4,NK2 homeobox 3,NKX2-3
-ANTP,Nk4,NK2 homeobox 5,NKX2-5
-ANTP,Nk5/Hmx,H6 family homeobox 4,hmx4
-ANTP,Nk5/Hmx,Homeobox protein HMX3-like,LOC100333298
-ANTP,Nk5/Hmx,H6 family homeobox 2,hmx2
-ANTP,Nk5/Hmx,H6 family homeobox 3,HMX3
-ANTP,Nk5/Hmx,H6 family homeobox 1,HMX1
-ANTP,Nk5/Hmx,H6 family homeobox 2,HMX2
-ANTP,Nk5/Hmx,H6-like-homeobox,Hmx
-ANTP,Nk5/Hmx,H6 family homeobox 1,hmx1
-ANTP,Nk5/Hmx,H6 family homeobox 4,hmx4
-ANTP,Nk5/Hmx,H6 family homeobox 4b,hmx4b
-ANTP,Nk5/Hmx,H6 family homeobox 3,hmx3
-ANTP,Nk5/Hmx,H6 family homeobox 2,hmx2
-ANTP,Nk5/Hmx,sensory organ homeobox protein SOHo,SOHO-1
-ANTP,Nk5/Hmx,H6 family homeobox 1,HMX1
-ANTP,Nk5/Hmx,H6 family homeobox 3,HMX3
-ANTP,Nk5/Hmx,H6 family homeobox 2,HMX2
-ANTP,Nk5/Hmx,H6-like homeobox,Hmx
-ANTP,Nk6,NK6 homeobox 3,nkx6.3
-ANTP,Nk6,NK6 homeobox 2,nkx6-2
-ANTP,Nk6,NK6 homeobox 1,nkx6-1
-ANTP,Nk6,NK6 homeobox 3,nkx6-3
-ANTP,Nk6,NK6 homeobox 2,NKX6-2
-ANTP,Nk7,C. Elegans Homeobox 9,ceh-9
-ANTP,Noto,notochord homeobox,not
-ANTP,Pdx,pancreatic and duodenal homeobox 1,pdx1
-ANTP,Pdx,pancreatic and duodenal homeobox1,PDX1
-ANTP,Pdx,pancreatic and duodenal homeobox 1,pdx1
-ANTP,Pdx,pancreatic and duodenal homeobox 1,PDX1
-ANTP,Tlx,"T-cell leukemia, homeobox 3b",tlx3b
-ANTP,Tlx,"T-cell leukemia, homeobox 1",tlx1
-ANTP,Tlx,"T-cell leukemia, homeobox 2",tlx2
-ANTP,Tlx,"T-cell leukemia, homeobox 3b-like",LOC100008066
-ANTP,Tlx,T-cell leukemia homeobox 1,TLX1
-ANTP,Tlx,T-cell leukemia homeobox 2,TLX2
-ANTP,Tlx,T-cell leukemia homeobox 3,TLX3
-ANTP,Tlx,T-cell leukemia homeobox 3,tlx3
-ANTP,Tlx,T-cell leukemia homeobox 1,tlx1
-ANTP,Tlx,T-cell leukemia homeobox 2,tlx2
-ANTP,Tlx,T-cell leukemia homeobox 1,TLX1
-ANTP,Tlx,T-cell leukemia homeobox 3,TLX3
-ANTP,Vax,ventral anterior homeobox 2,vax2
-ANTP,Vax,ventral anterior homeobox 1,vax1
-ANTP,Vax,C. Elegans Homeobox 5,ceh-5
-ANTP,Vax,C. Elegans Homeobox 7,ceh-7
-ANTP,Vax,ventral anterior homeobox 1,VAX1
-ANTP,Vax,ventral anterior homeobox 2,VAX2
-ANTP,Vax,ventral anterior homeobox 1,vax1
-ANTP,Vax,ventral anterior homeobox 2,vax2
-ANTP,Vax,ventral anterior homeobox 1,VAX1
-ANTP,Ventx,VENT homeobox pseudogene 1,VENTXP1
-ANTP,Ventx,VENT homeobox pseudogene 2,VENTXP2
-ANTP,Ventx,VENT homeobox pseudogene 3,VENTXP3
-ANTP,Ventx,VENT homeobox pseudogene 4,VENTXP4
-ANTP,Ventx,VENT homeobox pseudogene 5,VENTXP5
-ANTP,Ventx,VENT homeobox pseudogene 6,VENTXP6
-ANTP,Ventx,VENT homeobox pseudogene 7,VENTXP7
-ANTP,Ventx,VENT homeobox,VENTX
-ANTP,Ventx,"VENT homeobox 2, gene 2",ventx2.2
-ANTP,Ventx,"VENT homeobox 2, gene 1",ventx2.1
-ANTP,Ventx,"VENT homeobox 1, gene 2",ventx1.2
-ANTP,Ventx,"VENT homeobox 1, gene 1",ventx1.1
-ANTP,Ventx,"VENT homeobox 3, gene 2",ventx3.2
-ANTP,Ventx,"VENT homeobox 3, gene 1",ventx3.1
-ANTP,Ventx,VENT homeobox homolog (Xenopus laevis),VENTX
-CUT,Cux,C. Elegans Homeobox 44,ceh-44
-CUT,Cux,cut-like homeobox 1,CUX1
-CUT,Cux,cut-like homeobox 2,CUX2
-CUT,Cux,cut-like homeobox 2 pseudogene 2,CUX2P2
-CUT,Cux,cut-like homeobox 2 pseudogene 1,CUX2P1
-CUT,Cux,cut-like homeobox 1,cux1
-CUT,Cux,cut-like homeobox 2,cux2
-CUT,Cux,cut-like homeobox 2,CUX2
-CUT,Cux,cut-like homeobox 1,CUX1
-CUT,Onecut,one cut homeobox 3,onecut3
-CUT,Onecut,C. Elegans Homeobox 39,ceh-39
-CUT,Onecut,C. Elegans Homeobox 21,ceh-21
-CUT,Onecut,C. Elegans Homeobox 48,ceh-48
-CUT,Onecut,C. Elegans Homeobox 38,ceh-38
-CUT,Onecut,one cut homeobox 1,ONECUT1
-CUT,Onecut,one cut homeobox 2,ONECUT2
-CUT,Onecut,one cut homeobox 3,ONECUT3
-CUT,Onecut,"one cut homeobox 1, gene 2",onecut1.2
-CUT,Onecut,one cut homeobox 1,onecut1
-CUT,Onecut,one cut homeobox 3,onecut3
-CUT,Satb,SATB homeobox 2,satb2
-CUT,Satb,SATB homeobox 1 pesudogene 1,SATB1P1
-CUT,Satb,SATB homeobox 1,satb1
-CUT,Satb,SATB homeobox 2,satb2
-CUT,Satb,SATB homeobox 1,SATB1
-CUT,Satb,SATB homeobox 2,SATB2
-HNF,Hmbox,homeobox containing 1a,hmbox1a
-HNF,Hmbox,homeobox containing 1 b,hmbox1b
-HNF,Hmbox,HMBOX (mammalian HoMeoBOX gene) homolog,hmbx-1
-HNF,Hmbox,homeobox containing 1,HMBOX1
-HNF,Hmbox,hmbox homeobox like,hmboxl
-HNF,Hmbox,homeobox containing 1,HMBOX1
-HNF,Hnf1,HNF1 homeobox a,hnf1a
-HNF,Hnf1,HNF1 homeobox Ba,hnf1ba
-HNF,Hnf1,HNF1 homeobox Bb,hnf1bb
-HNF,Hnf1,HNF1 homeobox A,HNF1A
-HNF,Hnf1,HNF1 homeobox B,HNF1B
-HNF,Hnf1,HNF1 homeobox B,hnf1b
-HNF,Hnf1,HNF1 homeobox A,hnf1a
-HNF,Hnf1,HNF1 homeobox A,HNF1A
-HNF,Hnf1,HNF1 homeobox B,HNF1B
-LIM,Isl,ISL LIM homeobox 1,ISL1
-LIM,Isl,ISL LIM homeobox 2,ISL2
-LIM,Isl,ISL LIM homeobox 2,isl2
-LIM,Isl,ISL LIM homeobox 1,ISL1
-LIM,Lhx1/5,LIM homeobox 1b,lhx1b
-LIM,Lhx1/5,LIM homeobox 1a,lhx1a
-LIM,Lhx1/5,LIM homeobox 5,lhx5
-LIM,Lhx1/5,LIM homeobox 1,LHX1
-LIM,Lhx1/5,LIM homeobox 5,LHX5
-LIM,Lhx1/5,LIM homeobox 1,lhx1
-LIM,Lhx1/5,LIM homeobox 5,lhx5
-LIM,Lhx1/5,LIM homeobox 5,LHX5
-LIM,Lhx1/5,LIM homeobox 1,LHX1
-LIM,Lhx2/9,LIM homeobox 2b,lhx2b
-LIM,Lhx2/9,LIM homeobox 2a,lhx2a
-LIM,Lhx2/9,LIM homeobox 9,lhx9
-LIM,Lhx2/9,LIM homeobox 2,LHX2
-LIM,Lhx2/9,LIM homeobox 9,LHX9
-LIM,Lhx2/9,LIM homeobox 2,lhx2
-LIM,Lhx2/9,LIM homeobox 9,lhx9
-LIM,Lhx2/9,LIM homeobox 9,LHX9
-LIM,Lhx2/9,LIM homeobox 2,LHX2
-LIM,Lhx3/4,LIM homeobox 3,lhx3
-LIM,Lhx3/4,C. Elegans Homeobox 14,ceh-14
-LIM,Lhx3/4,LIM homeobox 3,LHX3
-LIM,Lhx3/4,LIM homeobox 4,LHX4
-LIM,Lhx3/4,LIM homeobox 4,lhx4
-LIM,Lhx3/4,LIM homeobox 3,lhx3
-LIM,Lhx3/4,LIM homeobox 3,LHX3
-LIM,Lhx6/8,LIM homeobox 8a,lhx8a
-LIM,Lhx6/8,LIM homeobox 6,lhx6
-LIM,Lhx6/8,LIM homeobox 8,LHX8
-LIM,Lhx6/8,LIM homeobox 6,LHX6
-LIM,Lhx6/8,LIM homeobox 6,lhx6
-LIM,Lhx6/8,LIM homeobox 8,lhx8
-LIM,Lhx6/8,LIM homeobox 8,LHX8
-LIM,Lhx6/8,LIM homeobox 6,LHX6
-LIM,Lmx,"LIM homeobox transcription factor 1, beta 2",lmx1b.2
-LIM,Lmx,"LIM homeobox transcription factor 1, beta 1",lmx1b.1
-LIM,Lmx,LMX LIM homeobox 1A,LMX1A
-LIM,Lmx,LMX LIM homeobox 1B,LMX1B
-LIM,Lmx,LIM homeobox transcription factor 1a,lmx1a
-LIM,Lmx,LIM homeobox transcription factor 1b,lmx1b
-LIM,Lmx,LIM homeobox transcription factor 1c,lmx1c
-LIM,Lmx,similar to LIM homeobox transcription factor,LOC770725
-LIM,Lmx,"LIM homeobox transcription factor 1, beta",LMX1B
-Other,Bix,"Brachyury-inducible homeobox 1, gene 1",bix1.1
-Other,Bix,"Brachyury-inducible homeobox 1, gene 3",bix1.3
-Other,Bix,Brachyury-inducible homeobox like,bixl
-Other,Bix,"Brachyury-inducible homeobox 1, gene 2",bix1.2
-Other,NANOGNB,NANOG neighbor homeobox,NANOGNB
-Other,Sia,siamois homeobox like 4,sial-4
-Other,Sia,siamois homeobox like 5,sial-5
-Other,Sia,siamois homeobox like 1,sial-1
-Other,Sia,siamois homeobox like 3,sial-3
-Other,Sia,siamois homeobox like 2,sial-2
-Other,unassigned,posterior neuron-specific homeobox,pnx
-Other,unassigned,mix-type homeobox gene 2,mxtx2
-Other,unassigned,ventral homeobox,vox
-Other,unassigned,ventral expressed homeobox,vent
-Other,unassigned,mix-type homeobox gene 1,mxtx1
-Other,unassigned,ADNP homeobox 2a,adnp2a
-Other,unassigned,ADNP homeobox 2b,adnp2b
-Other,unassigned,C. Elegans Homeobox 41,ceh-41
-Other,unassigned,C. Elegans Homeobox 90,ceh-90
-Other,unassigned,C. Elegans Homeobox 91,ceh-91
-Other,unassigned,C. Elegans Homeobox 49,ceh-49
-Other,unassigned,C. Elegans Homeobox 100,ceh-100
-Other,unassigned,C. Elegans Homeobox 51,ceh-51
-Other,unassigned,C. Elegans Homeobox 52,ceh-52
-Other,unassigned,frog partial homeobox 1,fp1
-Other,unassigned,mix1 homeobox,mix1
-Other,unassigned,sebox homeobox like,sebox-l
-Other,unassigned,mxtx homeobox like,mxtxl
-POU,Hdx,highly divergent homeobox,LOC797948
-POU,Hdx,highly divergent homeobox,HDX
-POU,Hdx,highly divergent homeobox,hdx
-POU,Hdx,highly divergent homeobox,HDX
-POU,Pou1,POU class 1 homeobox 1,POU1F1
-POU,Pou1,POU class 1 homeobox 1,pou1f1
-POU,Pou2,POU class 2 homeobox 1a,pou2f1a
-POU,Pou2,POU class 2 homeobox 1b,pou2f1b
-POU,Pou2,C. Elegans Homeobox 18,ceh-18
-POU,Pou2,POU class 2 homeobox 2,POU2F2
-POU,Pou2,POU class 2 homeobox 3,POU2F3
-POU,Pou2,POU class 2 homeobox 1,POU2F1
-POU,Pou2,POU class 2 homeobox 1,pou2f1
-POU,Pou2,POU class 2 homeobox 3,pou2f3
-POU,Pou2,POU class 2 homeobox 1,POU2F1
-POU,Pou2,POU class 2 homeobox 3,POU2F3
-POU,Pou3,POU class 3 homeobox 3b,pou3f3b
-POU,Pou3,POU class 3 homeobox 3a,pou3f3a
-POU,Pou3,POU class 3 homeobox 1,pou3f1
-POU,Pou3,POU class 3 homeobox 2,pou3f2
-POU,Pou3,C. Elegans Homeobox 6,ceh-6
-POU,Pou3,POU class 3 homeobox 1,POU3F1
-POU,Pou3,POU class 3 homeobox 2,POU3F2
-POU,Pou3,POU class 3 homeobox 3,POU3F3
-POU,Pou3,POU class 3 homeobox 4,POU3F4
-POU,Pou3,POU class 3 homeobox 3,pou3f3
-POU,Pou3,POU class 3 homeobox 1,pou3f1
-POU,Pou3,POU class 3 homeobox 4,pou3f4
-POU,Pou3,POU class 3 homeobox 1,pou3f1b
-POU,Pou4,POU class 4 homeobox 1,POU4F1
-POU,Pou4,POU class 4 homeobox 3,POU4F3
-POU,Pou4,POU class 4 homeobox 2,POU4F2
-POU,Pou4,POU class 4 homeobox 1,pou4f1.2
-POU,Pou4,POU class 4 homeobox 2,pou4f2
-POU,Pou4,POU class 4 homeobox 1,pou4f1
-POU,Pou4,POU class 4 homeobox 3,pou4f3
-POU,Pou4,"similar to POU domain, class 4, transcription factor 2 (Brain-specific homeobox/POU domain protein 3B) (Brn-3B) (Brn-3.2)",LOC428735
-POU,Pou5,POU class 5 homeobox 1 pseudogene 1,POU5F1P1
-POU,Pou5,POU class 5 homeobox 1 pseudogene 2,POU5F1P2
-POU,Pou5,POU class 5 homeobox 1 pseudogene 3,POU5F1P3
-POU,Pou5,POU class 5 homeobox 1 pseudogene 4,POU5F1P4
-POU,Pou5,POU class 5 homeobox 1 pseudogene 5,POU5F1P5
-POU,Pou5,POU class 5 homeobox 1 pseudogene 6,POU5F1P6
-POU,Pou5,POU class 5 homeobox 1 pseudogene 7,POU5F1P7
-POU,Pou5,POU class 5 homeobox 1 pseudogene 8,POU5F1P8
-POU,Pou5,POU class 5 homeobox 2,POU5F2
-POU,Pou5,POU class 5 homeobox 1,POU5F1
-POU,Pou6,POU class 6 homeobox 1,pou6f1
-POU,Pou6,POU class 6 homeobox 1,POU6F1
-POU,Pou6,POU class 6 homeobox 2,POU6F2
-POU,Pou6,POU class 6 homeobox 1,pou6f1
-POU,Pou6,POU class 6 homeobox 2,pou6f2
-POU,Pou2,POU class 2 homeobox 2,pou2f2
-PRD,Alx,aristaless-like homeobox 4a,alx4a
+ANTP,Abox,Absent from Olfactores,Abox
+ANTP,Abox,Absent from Olfactores,Abox
+ZF,Adnp,ADNP homeobox 2,ADNP2
+ZF,Adnp,ADNP homeobox 2,adnp2
+ZF,Adnp,activity-dependent neuroprotector homeobox,adnp
+ZF,Adnp,activity-dependent neuroprotector homeobox,ADNP
+ZF,Adnp,activity-dependent neuroprotector homeobox,adnp
+ZF,Adnp,activity-dependent neuroprotector homeobox,ADNP
 PRD,Alx,aristaless-like homeobox 4b,alx4b
-PRD,Alx,aristaless-like homeobox 3,ALX3
+PRD,Alx,aristaless-like homeobox 4a,alx4a
 PRD,Alx,aristaless-like homeobox 4,ALX4
-PRD,Alx,aristaless-like homeobox 1,ALX1
 PRD,Alx,ALX homeobox 4,alx4
+PRD,Alx,ALX homeobox 4,ALX4
+PRD,Alx,aristaless-like homeobox 3,ALX3
+PRD,Alx,aristaless-like homeobox 1,ALX1
 PRD,Alx,ALX homeobox 1,alx1
 PRD,Alx,ALX homeobox 1,ALX1
-PRD,Alx,ALX homeobox 4,ALX4
-PRD,Argfx,arginine-fifty homeobox pseudogene 1,ARGFXP1
+PRD,Aprd1,Aprd1 prd-a,AprdA
+PRD,Aprd2,Aprd2 prd-b,AprdB
+PRD,Aprd3,Aprd3 prd-c,AprdC
+PRD,Aprd4,Aprd4 prd-d,AprdD
+PRD,Aprd5,Aprd5 prd-d,AprdD
+PRD,Aprd6,Aprd6 prd-e,AprdE
 PRD,Argfx,arginine-fifty homeobox pseudogene 2,ARGFXP2
+PRD,Argfx,arginine-fifty homeobox pseudogene 1,ARGFXP1
 PRD,Argfx,arginine-fifty homeobox,ARGFX
 PRD,Arx,aristaless related homeobox,arx
 PRD,Arx,aristaless related homeobox,ARX
 PRD,Arx,aristaless related homeobox,arx
 PRD,Arx,aristaless related homeobox,ARX
-PRD,Dmbx,diencephalon/mesencephalon homeobox 1a,dmbx1a
+ANTP,Barhl,C. Elegans Homeobox 31,ceh-31
+ANTP,Barhl,C. Elegans Homeobox 30,ceh-30
+ANTP,Barhl,BarH-like homeobox 2,BARHL2
+ANTP,Barhl,BarH-like homeobox 2,barhl2
+ANTP,Barhl,BarH-like homeobox 1,BARHL1
+ANTP,Barhl,BarH-like homeobox 1,barhl1
+ANTP,Barx,BARX homeobox 2,BARX2
+ANTP,Barx,BARX homeobox 2,barx2
+ANTP,Barx,BARX homeobox 2,BARX2
+ANTP,Barx,BarH-like homeobox 2,barx2
+ANTP,Barx,BARX homeobox 1,BARX1
+ANTP,Barx,BARX homeobox 1,barx1
+ANTP,Barx,BarH-like homeobox 1,barx1
+Other,Bix,Brachyury-inducible homeobox like,bixl
+Other,Bix,"Brachyury-inducible homeobox 1, gene 3",bix1.3
+Other,Bix,"Brachyury-inducible homeobox 1, gene 2",bix1.2
+Other,Bix,"Brachyury-inducible homeobox 1, gene 1",bix1.1
+ANTP,Bsx,brain-specific homeobox,bsx
+ANTP,Bsx,brain-specific homeobox,BSX
+ANTP,Bsx,brain specific homeobox,bsx
+ANTP,Bsx,brain specific homeobox,BSX
+ANTP,Bsx,Brain-specific homeobox,Bsh
+ANTP,Bsx,brain-specific homeobox,bsh
+ANTP,Bsx,Brain-specific homeobox,Bsh
+ANTP,Cdx,caudal type homeobox 4 duplication,CDX4-2
+ANTP,Cdx,caudal type homeobox 4,CDX4
+ANTP,Cdx,caudal type homeobox 4,cdx4
+ANTP,Cdx,caudal type homeobox 4,CDX4
+ANTP,Cdx,caudal type homeobox 2,CDX2
+ANTP,Cdx,caudal type homeobox 2,cdx2
+ANTP,Cdx,caudal type homeobox 2,CDX2
+ANTP,Cdx,caudal type homeobox 1 b,cdx1b
+ANTP,Cdx,caudal type homeobox 1,cdx1 
+ANTP,Cdx,caudal type homeobox 1,CDX1
+ANTP,Cdx,caudal type homeobox 1,CDX1
+CUT,Cux,cut-like homeobox 2 pseudogene 2,CUX2P2
+CUT,Cux,cut-like homeobox 2 pseudogene 1,CUX2P1
+CUT,Cux,cut-like homeobox 2,CUX2
+CUT,Cux,cut-like homeobox 2,cux2
+CUT,Cux,cut-like homeobox 2,CUX2
+CUT,Cux,cut-like homeobox 1,CUX1
+CUT,Cux,cut-like homeobox 1,cux1
+CUT,Cux,cut-like homeobox 1,CUX1
+CUT,Cux,C. Elegans Homeobox 44,ceh-44
+ANTP,Dbx,developing brain homeobox 2,dbx2
+ANTP,Dbx,developing brain homeobox 2,DBX2
+ANTP,Dbx,developing brain homeobox 2,dbx2
+ANTP,Dbx,developing brain homeobox 2,DBX2
+ANTP,Dbx,developing brain homeobox 1b,dbx1b
+ANTP,Dbx,developing brain homeobox 1a,dbx1a
+ANTP,Dbx,developing brain homeobox 1,DBX1
+ANTP,Dbx,developing brain homeobox 1,dbx1
+ANTP,Dbx,developing brain homeobox 1,DBX1
+ANTP,Dbx,Developing brain homeobox,Dbx
+ANTP,Dbx,Developing brain homeobox,Dbx
+ANTP,Dlx,distal-less homeobox gene 6a,dlx6a
+ANTP,Dlx,distal-less homeobox 6,DLX6
+ANTP,Dlx,distal-less homeobox 6,dlx6
+ANTP,Dlx,distal-less homeobox 6,DLX6
+ANTP,Dlx,distal-less homeobox gene 5a,dlx5a
+ANTP,Dlx,distal-less homeobox 5,DLX5
+ANTP,Dlx,distal-less homeobox 5,dlx5
+ANTP,Dlx,distal-less homeobox 5,DLX5
+ANTP,Dlx,distal-less homeobox gene 4b,dlx4b
+ANTP,Dlx,distal-less homeobox gene 4a,dlx4a
+ANTP,Dlx,distal-less homeobox 4,DLX4
+ANTP,Dlx,distal-less homeobox 4,dlx4
+ANTP,Dlx,distal-less homeobox gene 3b,dlx3b
+ANTP,Dlx,distal-less homeobox 3,DLX3
+ANTP,Dlx,distal-less homeobox 3,dlx3
+ANTP,Dlx,distal-less homeobox gene 2b,dlx2b
+ANTP,Dlx,distal-less homeobox gene 2a,dlx2a
+ANTP,Dlx,distal-less homeobox 2,DLX2
+ANTP,Dlx,distal-less homeobox 2,dlx2
+ANTP,Dlx,distal-less homeobox gene 1a,dlx1a
+ANTP,Dlx,distal-less homeobox 1 dll dll-a,DLX1
+ANTP,Dlx,distal-less homeobox 1,dlx1
+ANTP,Dlx,distal-less homeobox 1,DLX1
+ANTP,Dlx,C. Elegans Homeobox 43,ceh-43
 PRD,Dmbx,diencephalon/mesencephalon homeobox 1b,dmbx1b
+PRD,Dmbx,diencephalon/mesencephalon homeobox 1a,dmbx1a
 PRD,Dmbx,diencephalon/mesencephalon homeobox 1,DMBX1
 PRD,Dmbx,diencephalon/mesencephalon homeobox 1,dmbx1
 PRD,Dmbx,diencephalon/mesencephalon homeobox 1,DMBX1
-PRD,Dprx,divergent-paired related homeobox pseudogene 1,DPRXP1
-PRD,Dprx,divergent-paired related homeobox pseudogene 2,DPRXP2
-PRD,Dprx,divergent-paired related homeobox pseudogene 3,DPRXP3
-PRD,Dprx,divergent-paired related homeobox pseudogene 4,DPRXP4
-PRD,Dprx,divergent-paired related homeobox pseudogene 5,DPRXP5
-PRD,Dprx,divergent-paired related homeobox pseudogene 6,DPRXP6
 PRD,Dprx,divergent-paired related homeobox pseudogene 7,DPRXP7
+PRD,Dprx,divergent-paired related homeobox pseudogene 6,DPRXP6
+PRD,Dprx,divergent-paired related homeobox pseudogene 5,DPRXP5
+PRD,Dprx,divergent-paired related homeobox pseudogene 4,DPRXP4
+PRD,Dprx,divergent-paired related homeobox pseudogene 3,DPRXP3
+PRD,Dprx,divergent-paired related homeobox pseudogene 2,DPRXP2
+PRD,Dprx,divergent-paired related homeobox pseudogene 1,DPRXP1
 PRD,Dprx,divergent-paired related homeobox,DPRX
 PRD,Drgx,dorsal root ganglia homeobox,drgx
 PRD,Drgx,dorsal root ganglia homeobox,DRGX
 PRD,Drgx,dorsal root ganglia homeobox,drgx
 PRD,Drgx,dorsal root ganglia homeobox,DRGX
-PRD,Dux,double homeobox A pseudogene 1,DUXAP1
-PRD,Dux,double homeobox A pseudogene 2,DUXAP2
-PRD,Dux,double homeobox A pseudogene 3,DUXAP3
-PRD,Dux,double homeobox A pseudogene 4,DUXAP4
-PRD,Dux,double homeobox A pseudogene 5,DUXAP5
-PRD,Dux,double homeobox A pseudogene 6,DUXAP6
-PRD,Dux,double homeobox A pseudogene 7,DUXAP7
-PRD,Dux,double homeobox A pseudogene 8,DUXAP8
-PRD,Dux,double homeobox A pseudogene 9,DUXAP9
-PRD,Dux,double homeobox A pseudogene 10,DUXAP10
-PRD,Dux,double homeobox A,DUXA
+PRD,Dux,double homeobox protein 4-like,LOC100506764
+PRD,Dux,"double homeobox, 4-like pseudogene",LOC100131369
 PRD,Dux,double homeobox B,DUXB
+PRD,Dux,double homeobox A pseudogene 9,DUXAP9
+PRD,Dux,double homeobox A pseudogene 8,DUXAP8
+PRD,Dux,double homeobox A pseudogene 7,DUXAP7
+PRD,Dux,double homeobox A pseudogene 6,DUXAP6
+PRD,Dux,double homeobox A pseudogene 5,DUXAP5
+PRD,Dux,double homeobox A pseudogene 4,DUXAP4
+PRD,Dux,double homeobox A pseudogene 3,DUXAP3
+PRD,Dux,double homeobox A pseudogene 2,DUXAP2
+PRD,Dux,double homeobox A pseudogene 10,DUXAP10
+PRD,Dux,double homeobox A pseudogene 1,DUXAP1
+PRD,Dux,double homeobox A,DUXA
+PRD,Dux,double homeobox 4 like 9,DUX4L9
+PRD,Dux,double homeobox 4 like 8,DUX4L8
 PRD,Dux,double homeobox 4 like 7,DUX4L7
 PRD,Dux,double homeobox 4 like 6,DUX4L6
 PRD,Dux,double homeobox 4 like 5,DUX4L5
 PRD,Dux,double homeobox 4 like 4,DUX4L4
-PRD,Dux,"double homeobox, 4",DUX4
 PRD,Dux,double homeobox 4 like 3,DUX4L3
-PRD,Dux,double homeobox 4 like 2,DUX4L2
-PRD,Dux,double homeobox 4 like 10,DUX4L10
-PRD,Dux,double homeobox 4 like 11,DUX4L11
-PRD,Dux,double homeobox 4 like 12,DUX4L12
-PRD,Dux,double homeobox 4 like 13,DUX4L13
-PRD,Dux,double homeobox 4 like 14,DUX4L14
-PRD,Dux,double homeobox 4 like 15,DUX4L15
 PRD,Dux,double homeobox 4 like 20,DUX4L20
-PRD,Dux,double homeobox 4 like 8,DUX4L8
-PRD,Dux,double homeobox 4 like 9,DUX4L9
-PRD,Dux,double homeobox 4 like 16,DUX4L16
-PRD,Dux,double homeobox 4 like 17,DUX4L17
-PRD,Dux,double homeobox 4 like 18,DUX4L18
+PRD,Dux,double homeobox 4 like 2,DUX4L2
 PRD,Dux,double homeobox 4 like 19,DUX4L19
-PRD,Dux,double homeobox protein 4-like,LOC100506764
-PRD,Dux,"double homeobox, 4-like pseudogene",LOC100131369
+PRD,Dux,double homeobox 4 like 18,DUX4L18
+PRD,Dux,double homeobox 4 like 17,DUX4L17
+PRD,Dux,double homeobox 4 like 16,DUX4L16
+PRD,Dux,double homeobox 4 like 15,DUX4L15
+PRD,Dux,double homeobox 4 like 14,DUX4L14
+PRD,Dux,double homeobox 4 like 13,DUX4L13
+PRD,Dux,double homeobox 4 like 12,DUX4L12
+PRD,Dux,double homeobox 4 like 11,DUX4L11
+PRD,Dux,double homeobox 4 like 10,DUX4L10
+PRD,Dux,"double homeobox, 4",DUX4
+ANTP,Emx,empty spiracles homeobox 3,emx3
+ANTP,Emx,empty spiracles homeobox 2,emx2
+ANTP,Emx,empty spiracles homeobox 2,emx2
+ANTP,Emx,empty spiracles homeobox 2,EMX2
+ANTP,Emx,"empty spiracles homeobox 1, gene 2",emx1.2
+ANTP,Emx,empty spiracles homeobox 1 like,emx1-l
+ANTP,Emx,empty spiracles homeobox 1,emx1
+ANTP,Emx,empty spiracles homeobox 1,emx1
+ANTP,Emx,empty spiracles homeobox 1,EMX1
+ANTP,Emx,C. Elegans Homeobox 23,ceh-23
+ANTP,Emx,C. Elegans Homeobox 2,ceh-2
+ANTP,En,engrailed homeobox 2 eh2,EN2
+ANTP,En,engrailed homeobox 2 eh2,en2
+ANTP,En,engrailed homeobox 1 eh1,EN1
+ANTP,En,engrailed homeobox 1 eh1,en1
+ANTP,En,engrailed homeobox 1 eh1,EN1
+ANTP,En,C. Elegans Homeobox 16,ceh-16
 PRD,Esx,"extraembryonic, spermatogenesis, homeobox 1 homolog (mouse)",ESX1
-PRD,Gsc,C. Elegans Homeobox 45,ceh-45
-PRD,Gsc,goosecoid homeobox,GSC
+ANTP,Evx,even-skipped homeobox homolog 2,EVX2
+ANTP,Evx,even-skipped homeobox 2,evx2
+ANTP,Evx,even-skipped homeobox 2,evx2
+ANTP,Evx,even-skipped homeobox 2,EVX2
+ANTP,Evx,even-skipped homeobox homolog 1,EVX1
+ANTP,Evx,even-skipped homeobox 1 evx-a,evx1
+ANTP,Evx,even-skipped homeobox 1,evx1
+ANTP,Evx,even-skipped homeobox 1,EVX1
+ANTP,Gbx,"gastrulation brain homeobox 2, gene 2",gbx2.2
+ANTP,Gbx,"gastrulation brain homeobox 2, gene 1",gbx2.1
+ANTP,Gbx,gastrulation brain homeobox 2,GBX2
+ANTP,Gbx,gastrulation brain homeobox 2,GBX2
+ANTP,Gbx,gastrulation brain homeobox 1,gbx1
+ANTP,Gbx,gastrulation brain homeobox 1,GBX1
+ANTP,Gbx,gastrulation brain homeobox 1,gbx1
+ANTP,Gbx,gastrulation brain homeobox 1,GBX1
 PRD,Gsc,goosecoid homeobox 2,GSC2
+PRD,Gsc,goosecoid homeobox 2,GSC2
+PRD,Gsc,goosecoid homeobox,GSC
 PRD,Gsc,goosecoid homeobox,gsc
 PRD,Gsc,goosecoid homeobox,GSC
-PRD,Gsc,goosecoid homeobox 2,GSC2
+PRD,Gsc,C. Elegans Homeobox 45,ceh-45
+ANTP,Gsx,GS homeobox 2,gsx2
+ANTP,Gsx,GS homeobox 2,GSX2
+ANTP,Gsx,GS homeobox 2,gsx2
+ANTP,Gsx,GS homeobox 1,gsx1
+ANTP,Gsx,GS homeobox 1,GSX1
+ANTP,Gsx,GS homeobox 1,gsx1
+POU,HD-ZIP,HD domain ,hdzip
+POU,Hdx,highly divergent homeobox,LOC797948
+POU,Hdx,highly divergent homeobox,HDX
+POU,Hdx,highly divergent homeobox,hdx
+POU,Hdx,highly divergent homeobox,HDX
 PRD,Hesx,HESX homeobox 1,HESX1
 PRD,Hesx,HESX homeobox 1,hesx1
 PRD,Hesx,HESX homeobox 1,HESX1
+ANTP,Hhex,hematopoietically expressed homeobox like,hhex-l
+ANTP,Hhex,hematopoietically expressed homeobox,hhex
+ANTP,Hhex,hematopoietically expressed homeobox,HHEX
+ANTP,Hhex,hematopoietically expressed homeobox,hhex
+ANTP,Hhex,hematopoietically expressed homeobox,HHEX
+ANTP,Hlx,H2.0-like homeobox,hlx1
+ANTP,Hlx,H2.0-like homeobox 1,HLX
+HNF,Hmbox,HMBOX (mammalian HoMeoBOX gene) homolog,hmbx-1
+HNF,Hmbox,hmbox homeobox like,hmboxl
+HNF,Hmbox,homeobox containing 1 b,hmbox1b
+HNF,Hmbox,homeobox containing 1a,hmbox1a
+HNF,Hmbox,homeobox containing 1,HMBOX1
+HNF,Hmbox,homeobox containing 1,HMBOX1
+HNF,Hnf1,HNF1 homeobox Bb,hnf1bb
+HNF,Hnf1,HNF1 homeobox Ba,hnf1ba
+HNF,Hnf1,HNF1 homeobox B,HNF1B
+HNF,Hnf1,HNF1 homeobox B,hnf1b
+HNF,Hnf1,HNF1 homeobox B,HNF1B
+HNF,Hnf1,HNF1 homeobox a,hnf1a
+HNF,Hnf1,HNF1 homeobox A,HNF1A
+HNF,Hnf1,HNF1 homeobox A,hnf1a
+HNF,Hnf1,HNF1 homeobox A,HNF1A
 PRD,Hopx,HOP homeobox,HOPX
 PRD,Hopx,HOP homeobox,hopx
 PRD,Hopx,HOP homeobox,HOPX
+ANTP,Hox1,homeobox D1,HOXD1
+ANTP,Hox1,homeobox D1,hoxd1
+ANTP,Hox1,homeobox D1,HOXD1
+ANTP,Hox1,homeobox B1,HOXB1
+ANTP,Hox1,homeobox B1,hoxb1
+ANTP,Hox1,homeobox B1,HOXB1
+ANTP,Hox1,homeobox A1,HOXA1
+ANTP,Hox1,homeobox A1,hoxa1
+ANTP,Hox1,homeobox A1,HOXA1
+ANTP,Hox1,C. Elegans Homeobox 13,ceh-13
+ANTP,Hox2,homeobox B2,HOXB2
+ANTP,Hox2,homeobox B2,hoxb2
+ANTP,Hox2,homeobox B2,HOXB2
+ANTP,Hox2,homeobox A2,HOXA2
+ANTP,Hox2,homeobox A2,hoxa2
+ANTP,Hox3,homeobox D3,HOXD3
+ANTP,Hox3,homeobox D3,hoxd3
+ANTP,Hox3,homeobox D3,HOXD3
+ANTP,Hox3,homeobox C3,hoxc3
+ANTP,Hox3,homeobox B3,HOXB3
+ANTP,Hox3,homeobox B3,hoxb3
+ANTP,Hox3,homeobox B3,HOXB3
+ANTP,Hox3,homeobox A3,HOXA3
+ANTP,Hox3,homeobox A3,hoxa3
+ANTP,Hox3,homeobox A3,HOXA3
+ANTP,Hox4,homeobox D4,HOXD4
+ANTP,Hox4,homeobox D4,hoxd4
+ANTP,Hox4,homeobox D4,HOXD4
+ANTP,Hox4,homeobox C4,HOXC4
+ANTP,Hox4,homeobox C4,hoxc4
+ANTP,Hox4,homeobox C4,Hoxc4
+ANTP,Hox4,homeobox B4,HOXB4
+ANTP,Hox4,homeobox B4,hoxb4
+ANTP,Hox4,homeobox A4,HOXA4
+ANTP,Hox4,homeobox A4,Hoxa4
+ANTP,Hox4,homeobox A4,HOXA4
+ANTP,Hox5,homeobox C5,HOXC5
+ANTP,Hox5,homeobox C5,hoxc5
+ANTP,Hox5,homeobox B5,HOXB5
+ANTP,Hox5,homeobox B5,hoxb5
+ANTP,Hox5,homeobox B5,HOXB5
+ANTP,Hox5,homeobox A5,HOXA5
+ANTP,Hox5,homeobox A5,hoxa5
+ANTP,Hox5,possibly homeobox A5,gga_chr02.1
+ANTP,Hox6-8,homeobox D8,HOXD8
+ANTP,Hox6-8,homeobox D8,hoxd8
+ANTP,Hox6-8,homeobox D8,HOXD8
+ANTP,Hox6-8,homeobox C8,HOXC8
+ANTP,Hox6-8,homeobox C8,hoxc8
+ANTP,Hox6-8,homeobox C6,hoxc6 
+ANTP,Hox6-8,homeobox C6,HOXC6
+ANTP,Hox6-8,homeobox B8 hox8,HOXB8
+ANTP,Hox6-8,homeobox B8,hoxb8
+ANTP,Hox6-8,homeobox B8,HOXB8
+ANTP,Hox6-8,homeobox B7,HOXB7
+ANTP,Hox6-8,homeobox B7,hoxb7
+ANTP,Hox6-8,homeobox B6,HOXB6
+ANTP,Hox6-8,homeobox B6,hoxb6
+ANTP,Hox6-8,homeobox A7,HOXA7
+ANTP,Hox6-8,homeobox A7,hoxa7
+ANTP,Hox6-8,homeobox A7,HOXA7
+ANTP,Hox6-8,homeobox A6,HOXA6
+ANTP,Hox6-8,homeobox A6,hoxa6
+ANTP,Hox6-8,homeobox A6,HOXA6
+ANTP,Hox6-8,homeobox -7 hox7,Hox-7
+ANTP,Hox6-8,homeobox -6,Hox-6
+ANTP,Hox9-13(15),homeobox D9,HOXD9
+ANTP,Hox9-13(15),homeobox D9,hoxd9
+ANTP,Hox9-13(15),homeobox D13,HOXD13
+ANTP,Hox9-13(15),homeobox D13,hoxd13
+ANTP,Hox9-13(15),homeobox D13,HOXD13
+ANTP,Hox9-13(15),homeobox D12,HOXD12
+ANTP,Hox9-13(15),homeobox D12,HOXD12
+ANTP,Hox9-13(15),homeobox D11,HOXD11
+ANTP,Hox9-13(15),homeobox D11,hoxd11
+ANTP,Hox9-13(15),homeobox D11,HOXD11
+ANTP,Hox9-13(15),homeobox D10,HOXD10
+ANTP,Hox9-13(15),homeobox D10,hoxd10
+ANTP,Hox9-13(15),homeobox C9,HOXC9
+ANTP,Hox9-13(15),homeobox C9,hoxc9
+ANTP,Hox9-13(15),Homeobox C10,Hoxc9
+ANTP,Hox9-13(15),homeobox C13,HOXC13
+ANTP,Hox9-13(15),homeobox C13,hoxc13
+ANTP,Hox9-13(15),homeobox C13,Hoxc13
+ANTP,Hox9-13(15),homeobox C12,HOXC12
+ANTP,Hox9-13(15),homeobox C12,hoxc12
+ANTP,Hox9-13(15),homeobox C11,HOXC11
+ANTP,Hox9-13(15),homeobox C11,hoxc11
+ANTP,Hox9-13(15),homeobox c11,Hoxc11
+ANTP,Hox9-13(15),homeobox protein Hox-C10a-like,hoxc10a
+ANTP,Hox9-13(15),homeobox C10,HOXC10
+ANTP,Hox9-13(15),homeobox C10,hoxc10
+ANTP,Hox9-13(15),homeobox B9,HOXB9
+ANTP,Hox9-13(15),homeobox B9,hoxb9
+ANTP,Hox9-13(15),homeobox B9,HOXB9
+ANTP,Hox9-13(15),homeobox B13,HOXB13
+ANTP,Hox9-13(15),homeobox B13,HOXB13
+ANTP,Hox9-13(15),homeobox B9,hoxb10
+ANTP,Hox9-13(15),homeobox A9,HOXA9
+ANTP,Hox9-13(15),homeobox A9,hoxa9
+ANTP,Hox9-13(15),homeobox A9,HOXA9
+ANTP,Hox9-13(15),homeobox A13,HOXA13
+ANTP,Hox9-13(15),homeobox A13,hoxa13
+ANTP,Hox9-13(15),homeobox A11,HOXA11
+ANTP,Hox9-13(15),homeobox A11,hoxa11
+ANTP,Hox9-13(15),homeobox A11,HOXA11
+ANTP,Hox9-13(15),homeobox A10,HOXA10
+ANTP,Hox9-13(15),homeobox A10,hoxa10
+ANTP,Hox9-13(15),homeobox A10,HOXA10
+ANTP,Hox9-13(15),homeobox -10 hox10 hox11 hox12 hox13 hox14 hox15 hox9.15,Hox-10
+TALE,Irx,iroquois homeobox protein 7,irx7
+TALE,Irx,iroquois homeobox protein 6a,irx6a
+TALE,Irx,iroquois homeobox protein 6,IRX6
+TALE,Irx,iroquois homeobox 6,irx6
+TALE,Irx,iroquois homeobox protein 5b,irx5b
+TALE,Irx,iroquois homeobox protein 5a,irx5a
+TALE,Irx,iroquois homeobox protein 5,IRX5
+TALE,Irx,iroquois homeobox 5,irx5
+TALE,Irx,iroquois homeobox 5,IRX5
+TALE,Irx,iroquois homeobox 4 pseudogene 1,IRX4P1
+TALE,Irx,iroquois homeobox protein 4b,irx4b
+TALE,Irx,iroquois homeobox protein 4a,irx4a
+TALE,Irx,iroquois homeobox protein 4,IRX4
+TALE,Irx,iroquois homeobox 4,irx4
+TALE,Irx,iroquois homeobox protein 3b,irx3b
+TALE,Irx,iroquois homeobox protein 3a,irx3a
+TALE,Irx,iroquois homeobox protein 3,IRX3
+TALE,Irx,iroquois homeobox 3,irx3
+TALE,Irx,"iroquois homeobox protein 2, a",irx2a
+TALE,Irx,iroquois homeobox protein 2,IRX2
+TALE,Irx,iroquois homeobox 2,irx2
+TALE,Irx,iroquois homeobox 2,IRX2
+TALE,Irx,iroquois homeobox 1 pseudogene 1,IRX1P1
+TALE,Irx,"iroquois homeobox protein 1, b",irx1b
+TALE,Irx,"iroquois homeobox protein 1, a",irx1a
+TALE,Irx,iroquois homeobox protein 1,IRX1
+TALE,Irx,iroquois homeobox 1,irx1
+TALE,Irx,IRoquois subclass of homeoboX 1,irx-1
+LIM,Isl,ISL LIM homeobox 2,ISL2
+LIM,Isl,ISL LIM homeobox 2,isl2
+LIM,Isl,ISL LIM homeobox 1,ISL1
+LIM,Isl,ISL LIM homeobox 1,ISL1
 PRD,Isx,intestine-specific homeobox,ISX
 PRD,Isx,intestine-specific homeobox,isx
 PRD,Isx,intestine-specific homeobox,ISX
+TALE,Kn,Kn Domain,Kn
+ANTP,Lbx,ladybird homeobox homolog 2,lbx2
+ANTP,Lbx,ladybird homeobox 2,LBX2
+ANTP,Lbx,ladybird homeobox 1b,lbx1b
+ANTP,Lbx,ladybird homeobox 1a,lbx1a
+ANTP,Lbx,ladybird homeobox 1,LBX1
+ANTP,Lbx,ladybird homeobox 1,lbx1
 PRD,Leutx,leucine-twenty homeobox,LEUTX
-PRD,Mix,OG9 homeobox gene,og9x
-PRD,Mix,Mix paired-like homeobox,MIXL1
-PRD,Mix,Mix1 homeobox-like 1,MIXL1
-PRD,Nobox,NOBOX oogenesis homeobox,NOBOX
-PRD,Otp,orthopedia homeobox,otpb
-PRD,Otx,cone-rod homeobox,crx
-PRD,Otx,C. Elegans Homeobox 36,ceh-36
-PRD,Otx,C. Elegans Homeobox 37,ceh-37
-PRD,Otx,cone-rod homeobox,CRX
-PRD,Otx,orthodenticle homeobox 1,OTX1
-PRD,Otx,orthodenticle homeobox 2,OTX2
-PRD,Otx,orthodenticle homeobox 2 pseudogene,OTX2P1
-PRD,Otx,orthodenticle homeobox 2,otx2
-PRD,Otx,orthodenticle homeobox 1,otx1
-PRD,Otx,cone-rod homeobox,crx
-PRD,Pax3/7,C. Elegans Homeobox 53,ceh-53
-PRD,Pax4/6,pax4 homeobox like,pax4l
-PRD,Phox,paired-like homeobox 2b,phox2b
-PRD,Phox,paired-like homeobox 2a,phox2a
-PRD,Phox,C. Elegans Homeobox 17,ceh-17
-PRD,Phox,paired-like homeobox 2a,PHOX2A
-PRD,Phox,paired-like homeobox 2b,PHOX2B
-PRD,Phox,paired-like homeobox 2a,phox2a
-PRD,Phox,paired-like homeobox 2b,phox2b
-PRD,Phox,paired-like homeobox 2b,PHOX2B
-PRD,Pitx,pituitary homeobox 3,PITX3
-PRD,Pitx,pituitary homeobox 1,PITX1
-PRD,Pitx,pituitary homeobox 2,PITX2
-PRD,Prop,PROP paired-like homeobox 1,prop1
-PRD,Prop,DROP paired-like homeobox 1,PROP1
-PRD,Prrx,paired related homeobox 1a,prrx1a
-PRD,Prrx,paired related homeobox 1b,prrx1b
-PRD,Prrx,paired related homeobox 2,PRRX2
-PRD,Prrx,paired related homeobox 1,PRRX1
-PRD,Prrx,paired related homeobox 2,prrx2
-PRD,Prrx,paired related homeobox 1,prrx1b
-PRD,Prrx,paired related homeobox 1,PRRX1
-PRD,Prrx,paired related homeobox 2,PRRX2
-PRD,Rax,retinal homeobox gene 2,rx2
-PRD,Rax,retinal homeobox gene 3,rx3
-PRD,Rax,retinal homeobox gene 1,rx1
-PRD,Rax,C. Elegans Homeobox 8,ceh-8
-PRD,Rax,retina and anterior neural fold homeobox 2,RAX2
-PRD,Rax,retina and anterior neural fold homeobox,RAX
-PRD,Rax,Retinal homeobox,Rx
-PRD,Rax,Retinal Homeobox,Rx
-PRD,Rax,retina and anterior neural fold homeobox 2,rax2 
-PRD,Rax,retina and anterior neural fold homeobox,rax
-PRD,Rax,retina and anterior neural fold homeobox,RX2
-PRD,Rax,Retinal homeobox,Rx
-PRD,Rhox,"Rhox homeobox family, member 2B",RHOXF2B
-PRD,Rhox,"Rhox homeobox family, member 2",RHOXF2
-PRD,Rhox,"Rhox homeobox family, member 1",RHOXF1
-PRD,Sebox,SEBOX homeobox,SEBOX
-PRD,Sebox,SEBOX homeobox,SEBOX
-PRD,Shox,short stature homeobox,shox
-PRD,Shox,short stature homeobox 2,shox2
-PRD,Shox,short stature homeobox 2,SHOX2
-PRD,Shox,short stature homeobox,SHOX
-PRD,Shox,short stature homeobox,shox
-PRD,Shox,short stature homeobox 2,shox2
-PRD,Shox,short stature homeobox 2,SHOX2
-PRD,Tprx,tetra-peptide repeat homeobox 1 pseudogene 1,TPRX1P1
-PRD,Tprx,tetra-peptide repeat homeobox 1 pseudogene 2,TPRX1P2
-PRD,Tprx,tetra-peptide repeat homeobox 2 pseudogene,TPRX2P
-PRD,Tprx,tetra-peptide repeat homeobox 1,TPRX1
-PRD,Tprx,tetra-peptide repeat homeobox-like,TPRXL
-PRD,Uncx,Unc4.1 homeobox,uncx4.1
-PRD,Uncx,UNC homeobox,uncx
-PRD,Uncx,UNC homeobox,UNCX
-PRD,Uncx,Ods-site homeobox,OdsH
-PRD,Uncx,UNC homeobox 1,uncx1
-PRD,Uncx,UNC homeobox 2,uncx2
-PRD,Uncx,UNC homeobox,UNCX
-PRD,Vsx,visual system homeobox 2,vsx2
-PRD,Vsx,"visual system homeobox 1 homolog, chx10-like",vsx1
-PRD,Vsx,C. Elegans Homeobox 10,ceh-10
-PRD,Vsx,visual system homeobox 1,VSX1
-PRD,Vsx,visual system homeobox 2,VSX2
-PRD,Vsx,visual system homeobox 2,vsx2
-PRD,Vsx,visual system homeobox 1,vsx1
-PRD,Vsx,visual system homeobox 1,VSX1
-PRD,Vsx,visual system homeobox 2,VSX2
-PROS,Prox,prospero-related homeobox gene 1b,prox1b
-PROS,Prox,prospero-related homeobox gene 1,prox1
-PROS,Prox,prospero homeobox 2,prox2
-PROS,Prox,C. Elegans Homeobox 26,ceh-26
-PROS,Prox,prospero homeobox 1,PROX1
-PROS,Prox,prospero homeobox 2,PROX2
-PROS,Prox,prox1 homeobox like,prox1-l
-PROS,Prox,prospero homeobox 1,prox1
-PROS,Prox,prospero-related homeobox 1,PROX1
-SINE,Six1/2,sine oculis-related homeobox 2b,six2b
-SINE,Six1/2,sine oculis-related homeobox 2a,six2a
-SINE,Six1/2,sine oculis homeobox homolog 1a,six1a
-SINE,Six1/2,sine oculis homeobox homolog 9,six9
-SINE,Six1/2,sine oculis homeobox homolog 1b,six1b
-SINE,Six1/2,C. Elegans Homeobox 33,ceh-33
-SINE,Six1/2,C. Elegans Homeobox 34,ceh-34
-SINE,Six1/2,SIX homeobox 1,SIX1
-SINE,Six1/2,SIX homeobox 2,SIX2
-SINE,Six1/2,SIX homeobox 1,six1
-SINE,Six1/2,SIX homeobox 2,six2 
-SINE,Six1/2,SIX homeobox 1,SIX1
-SINE,Six3/6,sine oculis homeobox homolog 7,six7
-SINE,Six3/6,sine oculis homeobox homolog 3b,six3b
-SINE,Six3/6,sine oculis-related homeobox 6a,six6a
-SINE,Six3/6,sine oculis homeobox homolog 3a,six3a
-SINE,Six3/6,sine oculis-related homeobox 6b,six6b
-SINE,Six3/6,C. Elegans Homeobox 32,ceh-32
-SINE,Six3/6,SIX homeobox 3,SIX3
-SINE,Six3/6,SIX homeobox 6,SIX6
-SINE,Six3/6,SIX homeobox 6,six6
-SINE,Six3/6,SIX homeobox 3,six3 
-SINE,Six4/5,sine oculis homeobox homolog 4a,six4a
-SINE,Six4/5,sine oculis homeobox homolog 4.3,six4.3
-SINE,Six4/5,sine oculis homeobox homolog 4b,six4b
-SINE,Six4/5,SIX homeobox 4,SIX4
-SINE,Six4/5,SIX homeobox 5,SIX5
-TALE,Irx,iroquois homeobox protein 3a,irx3a
-TALE,Irx,iroquois homeobox protein 5a,irx5a
-TALE,Irx,iroquois homeobox protein 6a,irx6a
-TALE,Irx,"iroquois homeobox protein 1, a",irx1a
-TALE,Irx,"iroquois homeobox protein 2, a",irx2a
-TALE,Irx,iroquois homeobox protein 4a,irx4a
-TALE,Irx,iroquois homeobox protein 4b,irx4b
-TALE,Irx,"iroquois homeobox protein 1, b",irx1b
-TALE,Irx,iroquois homeobox protein 7,irx7
-TALE,Irx,iroquois homeobox protein 3b,irx3b
-TALE,Irx,iroquois homeobox protein 5b,irx5b
-TALE,Irx,IRoquois subclass of homeoboX 1,irx-1
-TALE,Irx,iroquois homeobox protein 3,IRX3
-TALE,Irx,iroquois homeobox protein 1,IRX1
-TALE,Irx,iroquois homeobox protein 2,IRX2
-TALE,Irx,iroquois homeobox protein 4,IRX4
-TALE,Irx,iroquois homeobox protein 5,IRX5
-TALE,Irx,iroquois homeobox protein 6,IRX6
-TALE,Irx,iroquois homeobox 1 pseudogene 1,IRX1P1
-TALE,Irx,iroquois homeobox 4 pseudogene 1,IRX4P1
-TALE,Irx,iroquois homeobox 4,irx4
-TALE,Irx,iroquois homeobox 5,irx5
-TALE,Irx,iroquois homeobox 6,irx6
-TALE,Irx,iroquois homeobox 2,irx2
-TALE,Irx,iroquois homeobox 1,irx1
-TALE,Irx,iroquois homeobox 3,irx3
-TALE,Irx,iroquois homeobox 2,IRX2
-TALE,Irx,iroquois homeobox 5,IRX5
-TALE,Meis,Meis homeobox 3,MEIS3
+LIM,Lhx1/5,LIM homeobox 5,lhx5
+LIM,Lhx1/5,LIM homeobox 5,LHX5
+LIM,Lhx1/5,LIM homeobox 5,lhx5
+LIM,Lhx1/5,LIM homeobox 5,LHX5
+LIM,Lhx1/5,LIM homeobox 1b,lhx1b
+LIM,Lhx1/5,LIM homeobox 1a,lhx1a
+LIM,Lhx1/5,LIM homeobox 1,LHX1
+LIM,Lhx1/5,LIM homeobox 1,lhx1
+LIM,Lhx1/5,LIM homeobox 1,LHX1
+LIM,Lhx2/9,LIM homeobox 9,lhx9
+LIM,Lhx2/9,LIM homeobox 9,LHX9
+LIM,Lhx2/9,LIM homeobox 9,lhx9
+LIM,Lhx2/9,LIM homeobox 9,LHX9
+LIM,Lhx2/9,LIM homeobox 2b,lhx2b
+LIM,Lhx2/9,LIM homeobox 2a,lhx2a
+LIM,Lhx2/9,LIM homeobox 2,LHX2
+LIM,Lhx2/9,LIM homeobox 2,lhx2
+LIM,Lhx2/9,LIM homeobox 2,LHX2
+LIM,Lhx3/4,LIM homeobox 4,LHX4
+LIM,Lhx3/4,LIM homeobox 4,lhx4
+LIM,Lhx3/4,LIM homeobox 3,lhx3
+LIM,Lhx3/4,LIM homeobox 3,LHX3
+LIM,Lhx3/4,LIM homeobox 3,lhx3
+LIM,Lhx3/4,LIM homeobox 3,LHX3
+LIM,Lhx3/4,C. Elegans Homeobox 14,ceh-14
+LIM,Lhx6/8,LIM homeobox 8a,lhx8a
+LIM,Lhx6/8,LIM homeobox 8,LHX8
+LIM,Lhx6/8,LIM homeobox 8,lhx8
+LIM,Lhx6/8,LIM homeobox 8,LHX8
+LIM,Lhx6/8,LIM homeobox 6,lhx6
+LIM,Lhx6/8,LIM homeobox 6,LHX6
+LIM,Lhx6/8,LIM homeobox 6,lhx6
+LIM,Lhx6/8,LIM homeobox 6,LHX6
+LIM,Lmx,similar to LIM homeobox transcription factor LIM-type,LOC770725
+LIM,Lmx,LIM homeobox transcription factor 1c,lmx1c
+LIM,Lmx,"LIM homeobox transcription factor 1, beta 2",lmx1b.2
+LIM,Lmx,"LIM homeobox transcription factor 1, beta 1",lmx1b.1
+LIM,Lmx,LMX LIM homeobox 1B,LMX1B
+LIM,Lmx,LIM homeobox transcription factor 1b,lmx1b
+LIM,Lmx,"LIM homeobox transcription factor 1, beta",LMX1B
+LIM,Lmx,LMX LIM homeobox 1A,LMX1A
+LIM,Lmx,LIM homeobox transcription factor 1a,lmx1a
 TALE,Meis,Meis homeobox 3 pseudogene 2,MEIS3P2
 TALE,Meis,Meis homeobox 3 pseudogene 1,MEIS3P1
-TALE,Meis,Meis homeobox 1,MEIS1
-TALE,Meis,Meis homeobox 2,MEIS2
+TALE,Meis,Meis homeobox 3,MEIS3
 TALE,Meis,Meis homeobox 3,meis3
+TALE,Meis,Meis homeobox 2,MEIS2
 TALE,Meis,Meis homeobox 2,meis2
+TALE,Meis,Meis homeobox 2,MEIS2
+TALE,Meis,Meis homeobox 1,MEIS1
 TALE,Meis,Meis homeobox 1,meis1
 TALE,Meis,Meis homeobox 1,MEIS1
-TALE,Meis,Meis homeobox 2,MEIS2
+ANTP,Meox,mesenchyme homeobox 2,MEOX2
+ANTP,Meox,mesenchyme homeobox 2,meox2
+ANTP,Meox,mesenchyme homeobox 2,MEOX2
+ANTP,Meox,mesenchyme homeobox 1 mox,meox1
+ANTP,Meox,mesenchyme homeobox 1,MEOX1
+ANTP,Meox,mesenchyme homeobox 1,MEOX1
+ANTP,Meox,mesenchyme homeobox 2-like,LOC556898
+PRD,Mix,OG9 homeobox gene,og9x
+PRD,Mix,Mix1 homeobox-like 1,MIXL1
+PRD,Mix,Mix paired-like homeobox,MIXL1
 TALE,Mkx,mohawk homeobox a,mkxa
 TALE,Mkx,mohawk homeobox,MKX
 TALE,Mkx,mohawk homeobox,mkx
 TALE,Mkx,mohawk homeobox,MKX
-TALE,Pbx,C. Elegans Homeobox 20,ceh-40
-TALE,Pbx,C. Elegans Homeobox 60,ceh-60
-TALE,Pbx,C. Elegans Homeobox 20,ceh-20
-TALE,Pbx,pre-B-cell leukemia homeobox 2,PBX2
-TALE,Pbx,pre-B-cell leukemia homeobox 1,PBX1
-TALE,Pbx,pre-B-cell leukemia homeobox 3,PBX3
+ANTP,Mnx,motor neuron and pancreas homeobox 1 like,mnx1-l
+ANTP,Mnx,motor neuron and pancreas homeobox 1,mnx1
+ANTP,Mnx,motor neuron and pancreas homeobox 1,MNX1
+ANTP,Mnx,motor neuron and pancreas homeobox 1,mnx1
+ANTP,Mnx,motor neuron and pancreas homeobox 1,MNX1
+ANTP,Mnx,C. Elegans Homeobox 12,ceh-12
+ANTP,Msx,muscle segment homeobox E,msxe
+ANTP,Msx,muscle segment homeobox D,msxd
+ANTP,Msx,muscle segment homeobox C,msxc
+ANTP,Msx,muscle segment homeobox B,msxb
+ANTP,Msx,muscle segment homeobox A,msxa
+ANTP,Msx,msh homeobox 2 pseudogene,MSX2P1
+ANTP,Msx,msh homeobox 2,MSX2
+ANTP,Msx,msh homeobox 2,msx2
+ANTP,Msx,msh homeobox 2,MSX2
+ANTP,Msx,msh homeobox 1,MSX1
+ANTP,Msx,msh homeobox 1,msx1
+ANTP,Msx,msh homeobox 1,MSX1
+ANTP,Nanog,Nanog homeobox pseudogene 9,NANOGP9
+ANTP,Nanog,Nanog homeobox pseudogene 8,NANOGP8
+ANTP,Nanog,Nanog homeobox pseudogene 7,NANOGP7
+ANTP,Nanog,Nanog homeobox pseudogene 6,NANOGP6
+ANTP,Nanog,Nanog homeobox pseudogene 5,NANOGP5
+ANTP,Nanog,Nanog homeobox pseudogene 4,NANOGP4
+ANTP,Nanog,Nanog homeobox pseudogene 3,NANOGP3
+ANTP,Nanog,Nanog homeobox pseudogene 2,NANOGP2
+ANTP,Nanog,Nanog homeobox pseudogene 11,NANOGP11
+ANTP,Nanog,Nanog homeobox pseudogene 10,NANOGP10
+ANTP,Nanog,Nanog homeobox pseudogene 1,NANOGP1
+ANTP,Nanog,Nanog homeobox,NANOG
+Other,NANOGNB,NANOG neighbor homeobox,NANOGNB
+ANTP,Nedx,Next to distalless homeobox,Nedx
+ANTP,Nk1,NK1 homeobox 2,NKX1-2
+ANTP,Nk1,NK1 homeobox 2,nkx1-2
+ANTP,Nk1,NK1 homeobox 1,NKX1-1
+ANTP,Nk1,NK1 homeobox 1,NKX1-1
+ANTP,Nk1,C. Elegans Homeobox 1,ceh-1
+ANTP,Nk2.1,NK2 homeobox 1b,nkx2.1b
+ANTP,Nk2.1,NK2 homeobox 1a,nkx2.1a
+ANTP,Nk2.1,NK2 homeobox 4,NKX2-4
+ANTP,Nk2.1,NK2 homeobox 4,nkx2-4
+ANTP,Nk2.1,NK2 homeobox 1-like b,nkx2-1lb
+ANTP,Nk2.1,NK2 homeobox 1-like a,nkx2-1a
+ANTP,Nk2.1,NK2 homeobox 1,NKX2-1
+ANTP,Nk2.1,NK2 homeobox 1,nkx2-1
+ANTP,Nk2.1,NK2 homeobox 1,NKX2-1
+ANTP,Nk2.1,C. Elegans Homeobox 27,ceh-27
+ANTP,Nk2.1,C. Elegans Homeobox 24,ceh-24
+ANTP,Nk2.2,NK2 homeobox 8,NKX2-8
+ANTP,Nk2.2,NK2 homeobox 8,nkx2-8
+ANTP,Nk2.2,NK2 homeobox 2,NKX2-2
+ANTP,Nk2.2,NK2 homeobox 2,nkx2-2
+ANTP,Nk2.2,C. Elegans Homeobox 22,ceh-22 
+ANTP,Nk3,NK3 homeobox 3,nkx3.3
+ANTP,Nk3,NK3 homeobox 2,nkx3.2
+ANTP,Nk3,NK3 homeobox 2 like,nkx3-2l
+ANTP,Nk3,Nk3 homeobox 2,NKX3-2
+ANTP,Nk3,NK3 homeobox 2,nkx3-2
+ANTP,Nk3,NK3 homeobox 1,nkx3-1
+ANTP,Nk3,NK3 homeobox 1,NKX3-1
+ANTP,Nk3,NK3 homeobox 1,nkx3-1
+ANTP,Nk4,NK2 homeobox 6,NKX2-6
+ANTP,Nk4,NK2 homeobox 5,NKX2-5
+ANTP,Nk4,NK2 homeobox 3,NKX2-3
+ANTP,Nk4,C. Elegans Homeobox 28,ceh-28
+ANTP,Nk5/Hmx,sensory organ homeobox protein SOHo,SOHO-1
+ANTP,Nk5/Hmx,Homeobox protein HMX3-like,LOC100333298
+ANTP,Nk5/Hmx,H6 family homeobox 4b,hmx4b
+ANTP,Nk5/Hmx,H6 family homeobox 4,hmx4
+ANTP,Nk5/Hmx,H6 family homeobox 4,hmx4
+ANTP,Nk5/Hmx,H6 family homeobox 3,HMX3
+ANTP,Nk5/Hmx,H6 family homeobox 3,hmx3
+ANTP,Nk5/Hmx,H6 family homeobox 3,HMX3
+ANTP,Nk5/Hmx,H6 family homeobox 2,hmx2
+ANTP,Nk5/Hmx,H6 family homeobox 2,HMX2
+ANTP,Nk5/Hmx,H6 family homeobox 2,hmx2
+ANTP,Nk5/Hmx,H6 family homeobox 2,HMX2
+ANTP,Nk5/Hmx,H6 family homeobox 1,HMX1
+ANTP,Nk5/Hmx,H6 family homeobox 1,hmx1
+ANTP,Nk5/Hmx,H6 family homeobox 1,HMX1
+ANTP,Nk5/Hmx,H6-like-homeobox,Hmx
+ANTP,Nk5/Hmx,H6-like homeobox,Hmx
+ANTP,Nk6,NK6 homeobox 3,nkx6.3
+ANTP,Nk6,NK6 homeobox 3,nkx6-3
+ANTP,Nk6,NK6 homeobox 2,nkx6-2
+ANTP,Nk6,NK6 homeobox 2,NKX6-2
+ANTP,Nk6,NK6 homeobox 1,nkx6-1
+ANTP,Nk7,C. Elegans Homeobox 9,ceh-9
+ANTP,Nkx,nkx-c,Ci-Nkx-C
+PRD,Nobox,NOBOX oogenesis homeobox,NOBOX
+ANTP,Noto,notochord homeobox,not
+CUT,Onecut,one cut homeobox 3,onecut3
+CUT,Onecut,one cut homeobox 3,ONECUT3
+CUT,Onecut,one cut homeobox 3,onecut3
+CUT,Onecut,one cut homeobox 2,ONECUT2
+CUT,Onecut,"one cut homeobox 1, gene 2",onecut1.2
+CUT,Onecut,one cut homeobox 1,ONECUT1
+CUT,Onecut,one cut homeobox 1,onecut1
+CUT,Onecut,C. Elegans Homeobox 48,ceh-48
+CUT,Onecut,C. Elegans Homeobox 39,ceh-39
+CUT,Onecut,C. Elegans Homeobox 38,ceh-38
+CUT,Onecut,C. Elegans Homeobox 21,ceh-21
+PRD,Otp,orthopedia homeobox,otpb
+PRD,Otx,orthodenticle homeobox 2 pseudogene,OTX2P1
+PRD,Otx,orthodenticle homeobox 2,OTX2
+PRD,Otx,orthodenticle homeobox 2,otx2
+PRD,Otx,orthodenticle homeobox 1,OTX1
+PRD,Otx,orthodenticle homeobox 1,otx1
+PRD,Otx,cone-rod homeobox,crx
+PRD,Otx,cone-rod homeobox,CRX
+PRD,Otx,cone-rod homeobox,crx
+PRD,Otx,C. Elegans Homeobox 37,ceh-37
+PRD,Otx,C. Elegans Homeobox 36,ceh-36
+PRD,Pax1,Pax-1,pax1
+PRD,Pax2/5/8,Shaven sv Pax2 Pax5 Pax8,sv
+PRD,Pax3/7,C. Elegans Homeobox 53 Pax3 Pax7 eyegone eyg,ceh-53
+PRD,Pax4/6,pax4 homeobox like Pax6 Pax4 eyegone eyg,pax4l
+PRD,Pax9,Pax9,pax9
 TALE,Pbx,pre-B-cell leukemia homeobox 4,PBX4
-TALE,Pbx,pre-B-cell leukemia homeobox 2 pseudogene 1,PBX2P1
-TALE,Pbx,pre-B-cell leukemia homeobox 2,pbx2
+TALE,Pbx,pre-B-cell leukemia homeobox 3,PBX3
 TALE,Pbx,pre-B-cell leukemia homeobox 3,pbx3
+TALE,Pbx,pre-B-cell leukemia homeobox 3,PBX3
+TALE,Pbx,pre-B-cell leukemia homeobox 2 pseudogene 1,PBX2P1
+TALE,Pbx,pre-B-cell leukemia homeobox 2,PBX2
+TALE,Pbx,pre-B-cell leukemia homeobox 2,pbx2
+TALE,Pbx,pre-B-cell leukemia homeobox 1,PBX1
 TALE,Pbx,pre-B-cell leukemia homeobox 1,pbx1
 TALE,Pbx,pre-B-cell leukemia homeobox 1,PBX1
-TALE,Pbx,pre-B-cell leukemia homeobox 3,PBX3
-TALE,Pknox,pbx/knotted 1 homeobox 1.2,pknox1.2
-TALE,Pknox,homeobox protein PKNOX1-like,pknox1.3
-TALE,Pknox,pbx/knotted 1 homeobox 1.1,pknox1.1
+TALE,Pbx,C. Elegans Homeobox 60,ceh-60
+TALE,Pbx,C. Elegans Homeobox 20,ceh-40
+TALE,Pbx,C. Elegans Homeobox 20,ceh-20
+ANTP,Pdx,pancreatic and duodenal homeobox1,PDX1
+ANTP,Pdx,pancreatic and duodenal homeobox 1,pdx1
+ANTP,Pdx,pancreatic and duodenal homeobox 1,pdx1
+ANTP,Pdx,pancreatic and duodenal homeobox 1,PDX1
+PRD,Phox,paired-like homeobox 2b,phox2b
+PRD,Phox,paired-like homeobox 2b,PHOX2B
+PRD,Phox,paired-like homeobox 2b,phox2b
+PRD,Phox,paired-like homeobox 2b,PHOX2B
+PRD,Phox,paired-like homeobox 2a,phox2a
+PRD,Phox,paired-like homeobox 2a,PHOX2A
+PRD,Phox,paired-like homeobox 2a,phox2a
+PRD,Phox,C. Elegans Homeobox 17,ceh-17
+PRD,Pitx,pituitary homeobox 3,PITX3
+PRD,Pitx,pituitary homeobox 2,PITX2
+PRD,Pitx,pituitary homeobox 1,PITX1
 TALE,Pknox,pbx/knotted 1 homeobox 2,pknox2
-TALE,Pknox,PBX/knotted 1 homeobox 1,PKNOX1
 TALE,Pknox,PBX/knotted 1 homeobox 2,PKNOX2
 TALE,Pknox,PBX/knotted 1 homeobox 2,pknox2
-TALE,Pknox,PBX/knotted 1 homeobox 1,PKNOX1
 TALE,Pknox,PBX/knotted 1 homeobox 2,PKNOX2
-TALE,Tgif,homeobox protein TGIF2-like,Tgif2
-TALE,Tgif,TGFB-induced factor homeobox 1,tgif1
-TALE,Tgif,TGFB-induced factor 2 (TALE family homeobox),TGIF2
-TALE,Tgif,TGFB-induced factor homeobox 2 pseudogene 1,TGIF2P1
-TALE,Tgif,TGFB-induced factor homeobox 2 pseudogene 2,TGIF2P2
-TALE,Tgif,TGFB-induced factor homeobox 2 pseudogene 3,TGIF2P3
+TALE,Pknox,homeobox protein PKNOX1-like,pknox1.3
+TALE,Pknox,pbx/knotted 1 homeobox 1.2,pknox1.2
+TALE,Pknox,pbx/knotted 1 homeobox 1.1,pknox1.1
+TALE,Pknox,PBX/knotted 1 homeobox 1 KN,PKNOX1
+TALE,Pknox,PBX/knotted 1 homeobox 1,PKNOX1
+TALE,Pknox/Meis,pknox/meis KN domain,pknox/meis
+POU,Pou1,POU class 1 homeobox 1 Pou-specific,POU1F1
+POU,Pou1,POU class 1 homeobox 1,pou1f1
+POU,Pou2,POU class 2 homeobox 3,POU2F3
+POU,Pou2,POU class 2 homeobox 3,pou2f3
+POU,Pou2,POU class 2 homeobox 3,POU2F3
+POU,Pou2,POU class 2 homeobox 2,POU2F2
+POU,Pou2,POU class 2 homeobox 2,pou2f2
+POU,Pou2,POU class 2 homeobox 1b,pou2f1b
+POU,Pou2,POU class 2 homeobox 1a,pou2f1a
+POU,Pou2,POU class 2 homeobox 1,POU2F1
+POU,Pou2,POU class 2 homeobox 1,pou2f1
+POU,Pou2,POU class 2 homeobox 1,POU2F1
+POU,Pou2,C. Elegans Homeobox 18,ceh-18
+POU,Pou3,POU class 3 homeobox 4,POU3F4
+POU,Pou3,POU class 3 homeobox 4,pou3f4
+POU,Pou3,POU class 3 homeobox 3b,pou3f3b
+POU,Pou3,POU class 3 homeobox 3a,pou3f3a
+POU,Pou3,POU class 3 homeobox 3,POU3F3
+POU,Pou3,POU class 3 homeobox 3,pou3f3
+POU,Pou3,POU class 3 homeobox 2,pou3f2
+POU,Pou3,POU class 3 homeobox 2,POU3F2
+POU,Pou3,POU class 3 homeobox 1,pou3f1b
+POU,Pou3,POU class 3 homeobox 1,pou3f1
+POU,Pou3,POU class 3 homeobox 1,POU3F1
+POU,Pou3,POU class 3 homeobox 1,pou3f1
+POU,Pou3,C. Elegans Homeobox 6,ceh-6
+POU,Pou4,POU class 4 homeobox 3,POU4F3
+POU,Pou4,POU class 4 homeobox 3,pou4f3
+POU,Pou4,POU class 4 homeobox 2,POU4F2
+POU,Pou4,POU class 4 homeobox 2,pou4f2
+POU,Pou4,POU class 4 homeobox 1,pou4f1.2
+POU,Pou4,POU class 4 homeobox 1,POU4F1
+POU,Pou4,POU class 4 homeobox 1,pou4f1
+POU,Pou4,"similar to POU domain, class 4, transcription factor 2 (Brain-specific homeobox/POU domain protein 3B) (Brn-3B) (Brn-3.2)",LOC428735
+POU,Pou5,POU class 5 homeobox 2,POU5F2
+POU,Pou5,POU class 5 homeobox 1 pseudogene 8,POU5F1P8
+POU,Pou5,POU class 5 homeobox 1 pseudogene 7,POU5F1P7
+POU,Pou5,POU class 5 homeobox 1 pseudogene 6,POU5F1P6
+POU,Pou5,POU class 5 homeobox 1 pseudogene 5,POU5F1P5
+POU,Pou5,POU class 5 homeobox 1 pseudogene 4,POU5F1P4
+POU,Pou5,POU class 5 homeobox 1 pseudogene 3,POU5F1P3
+POU,Pou5,POU class 5 homeobox 1 pseudogene 2,POU5F1P2
+POU,Pou5,POU class 5 homeobox 1 pseudogene 1,POU5F1P1
+POU,Pou5,POU class 5 homeobox 1,POU5F1
+POU,Pou6,POU class 6 homeobox 2,POU6F2
+POU,Pou6,POU class 6 homeobox 2,pou6f2
+POU,Pou6,POU class 6 homeobox 1,pou6f1
+POU,Pou6,POU class 6 homeobox 1,POU6F1
+POU,Pou6,POU class 6 homeobox 1,pou6f1
+PRD,Prop,PROP paired-like homeobox 1,prop1
+PRD,Prop,DROP paired-like homeobox 1,PROP1
+PROS,Prox,prospero homeobox 2,prox2
+PROS,Prox,prospero homeobox 2,PROX2
+PROS,Prox,prospero-related homeobox gene 1b,prox1b
+PROS,Prox,prox1 homeobox like,prox1-l
+PROS,Prox,prospero-related homeobox gene 1,prox1
+PROS,Prox,prospero-related homeobox 1,PROX1
+PROS,Prox,prospero homeobox 1,PROX1
+PROS,Prox,prospero homeobox 1,prox1
+PROS,Prox,C. Elegans Homeobox 26,ceh-26
+PRD,Prrx,paired related homeobox 2,PRRX2
+PRD,Prrx,paired related homeobox 2,prrx2
+PRD,Prrx,paired related homeobox 2,PRRX2
+PRD,Prrx,paired related homeobox 1b,prrx1b
+PRD,Prrx,paired related homeobox 1,prrx1b
+PRD,Prrx,paired related homeobox 1a,prrx1a
+PRD,Prrx,paired related homeobox 1,PRRX1
+PRD,Prrx,paired related homeobox 1,PRRX1
+PRD,Rax,retinal homeobox gene 3,rx3
+PRD,Rax,retinal homeobox gene 2,rx2
+PRD,Rax,retina and anterior neural fold homeobox,RX2
+PRD,Rax,retinal homeobox gene 1,rx1
+PRD,Rax,Retinal homeobox paired class,Rx
+PRD,Rax,Retinal Homeobox,Rx
+PRD,Rax,Retinal homeobox,Rx
+PRD,Rax,retina and anterior neural fold homeobox 2,rax2 
+PRD,Rax,retina and anterior neural fold homeobox 2,RAX2
+PRD,Rax,retina and anterior neural fold homeobox,RAX
+PRD,Rax,retina and anterior neural fold homeobox,rax
+PRD,Rax,C. Elegans Homeobox 8,ceh-8
+PRD,Rhox,"Rhox homeobox family, member 2B",RHOXF2B
+PRD,Rhox,"Rhox homeobox family, member 2",RHOXF2
+PRD,Rhox,"Rhox homeobox family, member 1",RHOXF1
+CUT,Satb,SATB homeobox 2,satb2
+CUT,Satb,SATB homeobox 2,satb2
+CUT,Satb,SATB homeobox 2,SATB2
+CUT,Satb,SATB homeobox 1 pesudogene 1,SATB1P1
+CUT,Satb,SATB homeobox 1,satb1
+CUT,Satb,SATB homeobox 1,SATB1
+PRD,Sebox,SEBOX homeobox,SEBOX
+PRD,Sebox,SEBOX homeobox,SEBOX
+PRD,Shox,short stature homeobox 2,shox2
+PRD,Shox,short stature homeobox 2,SHOX2
+PRD,Shox,short stature homeobox 2,shox2
+PRD,Shox,short stature homeobox 2,SHOX2
+PRD,Shox,short stature homeobox,shox
+PRD,Shox,short stature homeobox,SHOX
+PRD,Shox,short stature homeobox,shox
+Other,Sia,siamois homeobox like 5,sial-5
+Other,Sia,siamois homeobox like 4,sial-4
+Other,Sia,siamois homeobox like 3,sial-3
+Other,Sia,siamois homeobox like 2,sial-2
+Other,Sia,siamois homeobox like 1,sial-1
+SINE,Six1/2,sine oculis homeobox homolog 9,six9
+SINE,Six1/2,sine oculis-related homeobox 2b,six2b
+SINE,Six1/2,sine oculis-related homeobox 2a,six2a
+SINE,Six1/2,SIX homeobox 2,six2 
+SINE,Six1/2,SIX homeobox 2,SIX2
+SINE,Six1/2,sine oculis homeobox homolog 1b,six1b
+SINE,Six1/2,sine oculis homeobox homolog 1a,six1a
+SINE,Six1/2,SIX homeobox 1,SIX1
+SINE,Six1/2,SIX homeobox 1,six1
+SINE,Six1/2,SIX homeobox 1,SIX1
+SINE,Six1/2,C. Elegans Homeobox 34,ceh-34
+SINE,Six1/2,C. Elegans Homeobox 33,ceh-33
+SINE,Six3/6,sine oculis homeobox homolog 7,six7
+SINE,Six3/6,sine oculis-related homeobox 6b,six6b
+SINE,Six3/6,sine oculis-related homeobox 6a,six6a
+SINE,Six3/6,SIX homeobox 6,SIX6
+SINE,Six3/6,SIX homeobox 6,six6
+SINE,Six3/6,sine oculis homeobox homolog 3b,six3b
+SINE,Six3/6,sine oculis homeobox homolog 3a,six3a
+SINE,Six3/6,SIX homeobox 3,six3 
+SINE,Six3/6,SIX homeobox 3,SIX3
+SINE,Six3/6,C. Elegans Homeobox 32,ceh-32
+SINE,Six4/5,SIX homeobox 5,SIX5
+SINE,Six4/5,sine oculis homeobox homolog 4b,six4b
+SINE,Six4/5,sine oculis homeobox homolog 4a,six4a
+SINE,Six4/5,sine oculis homeobox homolog 4.3,six4.3
+SINE,Six4/5,SIX homeobox 4,SIX4
 TALE,Tgif,TGFB-induced factor homeobox 2 pseudogene 4,TGIF2P4
+TALE,Tgif,TGFB-induced factor homeobox 2 pseudogene 3,TGIF2P3
+TALE,Tgif,TGFB-induced factor homeobox 2 pseudogene 2,TGIF2P2
+TALE,Tgif,TGFB-induced factor homeobox 2 pseudogene 1,TGIF2P1
+TALE,Tgif,TGFB-induced factor homeobox 2,tgif2
+TALE,Tgif,TGFB-induced factor 2 (TALE family homeobox),TGIF2
+TALE,Tgif,homeobox protein TGIF2-like,Tgif2
 TALE,Tgif,TGFB-induced factor homeobox 1 pseudogene 1,TGIF1P1
+TALE,Tgif,TGFB-induced factor homeobox 1,tgif1
 TALE,Tgif,TGFB-induced factor homeobox 1,TGIF1
 TALE,Tgif,TGFB-induced factor homeobox 1,tgif1
-TALE,Tgif,TGFB-induced factor homeobox 2,tgif2
 TALE,Tgif,TGFB-induced factor homeobox 1,TGIF1
-ZF,Adnp,activity-dependent neuroprotector homeobox,adnp
-ZF,Adnp,ADNP homeobox 2,ADNP2
-ZF,Adnp,activity-dependent neuroprotector homeobox,ADNP
-ZF,Adnp,activity-dependent neuroprotector homeobox,adnp
-ZF,Adnp,ADNP homeobox 2,adnp2
-ZF,Adnp,activity-dependent neuroprotector homeobox,ADNP
-ZF,Tshz,teashirt zinc finger homeobox 3b,tshz3b
-ZF,Tshz,teashirt zinc finger homeobox 2,tshz2
-ZF,Tshz,teashirt zinc finger homeobox 1,TSHZ1
-ZF,Tshz,teashirt zinc finger homeobox 2,TSHZ2
-ZF,Tshz,teashirt zinc finger homeobox 3,TSHZ3
-ZF,Tshz,teashirt zinc finger homeobox 2,tshz2
-ZF,Tshz,teashirt zinc finger homeobox 3,tshz3
-ZF,Zeb,zinc finger E-box binding homeobox 2b,zeb2b
-ZF,Zeb,zinc finger E-box binding homeobox 1,zeb1
+ANTP,Tlx,"T-cell leukemia, homeobox 3b",tlx3b
+ANTP,Tlx,T-cell leukemia homeobox 3,TLX3
+ANTP,Tlx,T-cell leukemia homeobox 3,tlx3
+ANTP,Tlx,T-cell leukemia homeobox 3,TLX3
+ANTP,Tlx,"T-cell leukemia, homeobox 2",tlx2
+ANTP,Tlx,T-cell leukemia homeobox 2,TLX2
+ANTP,Tlx,T-cell leukemia homeobox 2,tlx2
+ANTP,Tlx,"T-cell leukemia, homeobox 1",tlx1
+ANTP,Tlx,T-cell leukemia homeobox 1,TLX1
+ANTP,Tlx,T-cell leukemia homeobox 1,tlx1
+ANTP,Tlx,T-cell leukemia homeobox 1,TLX1
+ANTP,Tlx,"T-cell leukemia, homeobox 3b-like",LOC100008066
+PRD,Tprx,tetra-peptide repeat homeobox-like,TPRXL
+PRD,Tprx,tetra-peptide repeat homeobox 2 pseudogene,TPRX2P
+PRD,Tprx,tetra-peptide repeat homeobox 1 pseudogene 2,TPRX1P2
+PRD,Tprx,tetra-peptide repeat homeobox 1 pseudogene 1,TPRX1P1
+PRD,Tprx,tetra-peptide repeat homeobox 1,TPRX1
+ZF,Tshz,teashirt zinc homeobox zfh1,zfh1
+ZF,Tshz,teashirt zinc homeobox 3b,tshz3b
+ZF,Tshz,teashirt zinc homeobox 3,TSHZ3
+ZF,Tshz,teashirt zinc homeobox 3,tshz3
+ZF,Tshz,teashirt zinc homeobox 2,tshz2
+ZF,Tshz,teashirt zinc homeobox 2,TSHZ2
+ZF,Tshz,teashirt zinc homeobox 2,tshz2
+ZF,Tshz,teashirt zinc homeobox 1 zinc finger protein,TSHZ1
+Other,unassigned,ventral homeobox,vox
+Other,unassigned,ventral expressed homeobox,vent
+Other,unassigned,sebox homeobox like,sebox-l
+Other,unassigned,posterior neuron-specific homeobox,pnx
+Other,unassigned,mxtx homeobox like,mxtxl
+Other,unassigned,mix-type homeobox gene 2,mxtx2
+Other,unassigned,mix-type homeobox gene 1,mxtx1
+Other,unassigned,mix1 homeobox,mix1
+Other,unassigned,frog partial homeobox 1,fp1
+Other,unassigned,C. Elegans Homeobox 91,ceh-91
+Other,unassigned,C. Elegans Homeobox 90,ceh-90
+Other,unassigned,C. Elegans Homeobox 52,ceh-52
+Other,unassigned,C. Elegans Homeobox 51,ceh-51
+Other,unassigned,C. Elegans Homeobox 49,ceh-49
+Other,unassigned,C. Elegans Homeobox 41,ceh-41
+Other,unassigned,C. Elegans Homeobox 100,ceh-100
+Other,unassigned,ADNP homeobox 2b,adnp2b
+Other,unassigned,ADNP homeobox 2a,adnp2a
+PRD,Uncx,Unc4.1 homeobox,uncx4.1
+PRD,Uncx,UNC homeobox 2,uncx2
+PRD,Uncx,UNC homeobox 1,uncx1
+PRD,Uncx,UNC homeobox,uncx
+PRD,Uncx,UNC homeobox,UNCX
+PRD,Uncx,UNC homeobox,UNCX
+PRD,Uncx,Ods-site homeobox,OdsH
+ANTP,Vax,ventral anterior homeobox 2,vax2
+ANTP,Vax,ventral anterior homeobox 2,VAX2
+ANTP,Vax,ventral anterior homeobox 2,vax2
+ANTP,Vax,ventral anterior homeobox 1,vax1
+ANTP,Vax,ventral anterior homeobox 1,VAX1
+ANTP,Vax,ventral anterior homeobox 1,vax1
+ANTP,Vax,ventral anterior homeobox 1,VAX1
+ANTP,Vax,C. Elegans Homeobox 7,ceh-7
+ANTP,Vax,C. Elegans Homeobox 5,ceh-5
+ANTP,Ventx,VENT homeobox pseudogene 7,VENTXP7
+ANTP,Ventx,VENT homeobox pseudogene 6,VENTXP6
+ANTP,Ventx,VENT homeobox pseudogene 5,VENTXP5
+ANTP,Ventx,VENT homeobox pseudogene 4,VENTXP4
+ANTP,Ventx,VENT homeobox pseudogene 3,VENTXP3
+ANTP,Ventx,VENT homeobox pseudogene 2,VENTXP2
+ANTP,Ventx,VENT homeobox pseudogene 1,VENTXP1
+ANTP,Ventx,"VENT homeobox 3, gene 2",ventx3.2
+ANTP,Ventx,"VENT homeobox 3, gene 1",ventx3.1
+ANTP,Ventx,"VENT homeobox 2, gene 2",ventx2.2
+ANTP,Ventx,"VENT homeobox 2, gene 1",ventx2.1
+ANTP,Ventx,"VENT homeobox 1, gene 2",ventx1.2
+ANTP,Ventx,"VENT homeobox 1, gene 1",ventx1.1
+ANTP,Ventx,VENT homeobox homolog (Xenopus laevis),VENTX
+ANTP,Ventx,VENT homeobox,VENTX
+PRD,Vsx,visual system homeobox 2,vsx2
+PRD,Vsx,visual system homeobox 2,VSX2
+PRD,Vsx,visual system homeobox 2,vsx2
+PRD,Vsx,visual system homeobox 2,VSX2
+PRD,Vsx,"visual system homeobox 1 homolog, chx10-like",vsx1
+PRD,Vsx,visual system homeobox 1,VSX1
+PRD,Vsx,visual system homeobox 1,vsx1
+PRD,Vsx,visual system homeobox 1,VSX1
+PRD,Vsx,C. Elegans Homeobox 10,ceh-10
 ZF,Zeb,zinc finger E-box binding homeobox 2 pseudogene 1,ZEB2P1
-ZF,Zeb,zinc finger E-box binding homeobox 1,ZEB1
+ZF,Zeb,zinc finger E-box binding homeobox 2b,zeb2b
 ZF,Zeb,zinc finger E-box binding homeobox 2,ZEB2
-ZF,Zeb,zinc finger E-box binding homeobox 1,zeb1
 ZF,Zeb,zinc finger E-box binding homeobox 2,zeb2
-ZF,Zeb,zinc finger E-box binding homeobox 1,ZEB1
+ZF,Zeb,zinc finger E-box binding homeobox 2,zeb2
 ZF,Zeb,zinc finger E-box binding homeobox 2,ZEB2
-ZF,Zfhx,zinc finger homeobox 3-like,Zfhx3-l
-ZF,Zfhx,zinc finger homeobox 2,ZFHX2
-ZF,Zfhx,zinc finger homeobox 3,ZFHX3
+ZF,Zeb,zinc finger E-box binding homeobox 1 zinc_finger_E_box_binding zinc-finger-E-box-binding,zeb1
+ZF,Zeb,zinc finger E-box binding homeobox 1,ZEB1
+ZF,Zeb,zinc finger E-box binding homeobox 1,ZEB1
+ZF,Zeb,zinc finger plus homeodomain ZAG 1 ZAG_1,zag-1
 ZF,Zfhx,zinc finger homeobox 4,ZFHX4
 ZF,Zfhx,zinc finger homeobox 4,zfhx4
-ZF,Zfhx,zinc finger homeobox 3,zfhx3
-ZF,Zfhx,zinc finger homeobox 2,zfhx2
+ZF,Zfhx,zinc finger homeobox 3-like atbf,Zfhx3-l
 ZF,Zfhx,zinc finger homeobox 3,ZFHX3
-ZF,Zhx/Homez,zinc-fingers and homeoboxes 2,zhx2
+ZF,Zfhx,zinc finger homeobox 3,zfhx3
+ZF,Zfhx,zinc finger homeobox 3,ZFHX3
+ZF,Zfhx,zinc finger homeobox 2,ZFHX2
+ZF,Zfhx,zinc finger homeobox 2,zfhx2
+ZF,Zfhx,zinc finger homeobox protein 1,ZFHX1
 ZF,Zhx/Homez,zinc fingers and homeoboxes 3,zhx3
-ZF,Zhx/Homez,homeobox and leucine zipper encoding,HOMEZ
-ZF,Zhx/Homez,zinc fingers and homeoboxes 1,ZHX1
-ZF,Zhx/Homez,zinc fingers and homeoboxes 2,ZHX2
-ZF,Zhx/Homez,zinc fingers and homeoboxes 2,ZHX3
-ZF,Zhx/Homez,zinc fingers and homeoboxes 1,zhx1
-ZF,Zhx/Homez,zinc fingers and homeoboxes 3,zhx3
-ZF,Zhx/Homez,zinc fingers and homeoboxes 2,zhx2
-ZF,Zhx/Homez,homeobox and leucine zipper encoding,homez
-ZF,Zhx/Homez,zinc fingers and homeoboxes 1,ZHX1
-ZF,Zhx/Homez,zinc fingers and homeoboxes 2,ZHX2
 ZF,Zhx/Homez,zinc fingers and homeoboxes 3,ZHX3
+ZF,Zhx/Homez,zinc fingers and homeoboxes 2,ZHX3
+ZF,Zhx/Homez,zinc-fingers and homeoboxes 2,zhx2
+ZF,Zhx/Homez,zinc fingers and homeoboxes 2,ZHX2
+ZF,Zhx/Homez,zinc fingers and homeoboxes 2,zhx2
+ZF,Zhx/Homez,zinc fingers and homeoboxes 2,ZHX2
+ZF,Zhx/Homez,zinc fingers and homeoboxes 1,ZHX1
+ZF,Zhx/Homez,zinc fingers and homeoboxes 1,zhx1
+ZF,Zhx/Homez,zinc fingers and homeoboxes 1,ZHX1
+ZF,Zhx/Homez,homeobox and leucine zipper encoding,HOMEZ
+ZF,Zhx/Homez,homeobox and leucine zipper encoding,homez

@@ -5,6 +5,7 @@ use List::MoreUtils qw/ uniq /;
 my $domains = `cat Homeo*Class*.csv | grep -v 'Family' | sed 's/,End//g'`;
 my @domains = split /[\n,]/, $domains;
 push @domains, "Homeobox";
+push @domains, "Homeodomain";
 my @domain = uniq @domains;
 my @interpros;
 foreach my $domain(@domain) {
@@ -49,21 +50,33 @@ foreach my $result (@selectedresults) {
 	chomp $result;
 	my ($query,$start,$stop) = split /\t/, $result;
 	my $hg;
-	if ($query =~ /^([0-9]+)_/) {
+	chomp $query;
+	if ($query =~ /\|([0-9]+)\|[0-9]+$/) {
 		$hg = $1;
 	}
+	#print $query, "\n";
+	#my $query2 = quotemeta($query);
+	#print $query2, "\n";
 	my $fasta = `grep -A1 '$query' Fastas/$hg.fasta`;
+	#print $fasta, "\n";
+	#print "grep -A1 '$query' Fastas/$hg.fasta\n";
 	my ($header,$sequence) = split /\n/, $fasta;
 	chomp $header; chomp $sequence; chomp $start; chomp $stop;
-	print "Start:$start\tStop:$stop\t";
+	print "$start\t$stop\t";
 	my $end = $stop-$start;
-	my $newseq = "";
-	if (length($sequence) < 81) {
+	my $newseq = "$sequence";
+	if (length($sequence) < 82) {
 		$newseq = $sequence;
 	}
 	else {
-		if ($start > 10) {
-			$newseq = substr $sequence, $start-10, $end+20;
+	#	print length($sequence),"\n";
+		if (($start > 10) && ($end+20 < length($sequence))) {
+			if (length($sequence) < $start-10) {
+				$newseq = substr $sequence, $start-10, $end+20;
+			}
+			else {
+				$newseq = substr $sequence, $start, $end;
+			}
 		}
 		else {
 			$newseq = substr $sequence, 0, $end+10;
@@ -72,8 +85,8 @@ foreach my $result (@selectedresults) {
 	unless ($newseq =~ /[A-Za-z]/) {
 		$newseq = substr $sequence, $start, 60;
 	}
-	print "$header\tOld length:".length($sequence)."\t";
-	print "New length: ", length($newseq), "\n";
+	print "$header\t".length($sequence)."\t";
+	print length($newseq), "\n";
 	chomp $newseq;
 	unless (-f "$dir/$hg.fasta") {
 		system "touch $dir/$hg.fasta";

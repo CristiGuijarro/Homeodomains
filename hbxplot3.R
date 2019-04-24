@@ -1,10 +1,10 @@
 library(ggplot2)
-hbx <- read.csv('/home/cristig/Desktop/Homeodomains/hbxRecount.csv', header=FALSE)
+hbx <- read.csv('/home/cristig/Desktop/Homeodomains/hbxCountMelt.csv', header=FALSE)
 colnames(hbx)=c("species","groups","class", "family", "value")
 hbx$value[hbx$value < 1] <- -1
 hbx$value[hbx$value > 0] <- 3
-hbx$species <- factor(hbx$species, c('Leucosolenia complicata','Sycon ciliatum','Amphimedon queenslandica','Oscarella carmela','Aiptasia pallida','Nematostella vectensis','Acropora digitifera','Hydra magnipapillata','Thelohanellus kitauei','Mnemiopsis leidyi','Trichoplax adhaerens','Patiria miniata','Strongylocentrotus purpuratus','Lytechinus variegatus','Ptychodera flava','Saccoglossus kowalevskii','Branchiostoma floridae','Branchiostoma belcheri','Oikopleura dioica','Ciona intestinalis','Botryllus schlosseri','Danio rerio','Homo sapiens','Anolis carolinensis','Gallus gallus','Xenopus tropicalis','Trichinella spiralis','Brugia malayi','Romanomermis culicivorax','Stegodyphus mimosarum','Ixodes scapularis','Limulus polyphemus','Daphnia pulex','Parhyale hawaiensis','Tribolium castaneum','Drosophila melanogaster','Zootermopsis nevadensis','Strigamia maritima','Hypsibius dujardini','Ramazzottius varieornatus','Helobdella robusta','Capitella teleta','Lingula anatina','Crassostrea gigas','Pinctada fucata','Octopus bimaculoides','Lottia gigantea','Intoshia linei','Hymenolepis microstoma','Echinococcus multilocularis','Gyrodactylus salaris','Schmidtea mediterranea','Macrostomum lignano','Schistosoma japonicum','Adineta vaga'))
-hbx$grouping <- factor(hbx$groups, levels = c('Calcarea','Demospongiae','Homoscleromorpha','Anthozoa','Hydrozoa','Myxozoa','Tentaculata','Trichoplacidae','Ambulacraria','Chordata','Ecdysozoa','Lophotrochozoa'))
+hbx$species <- factor(hbx$species, c('Leucosolenia complicata','Sycon ciliatum','Amphimedon queenslandica','Oscarella carmela','Aiptasia pallida','Nematostella vectensis','Acropora digitifera','Hydra magnipapillata','Thelohanellus kitauei','Mnemiopsis leidyi','Trichoplax adhaerens','Patiria miniata','Strongylocentrotus purpuratus','Lytechinus variegatus','Ptychodera flava','Saccoglossus kowalevskii','Amphioxus','Branchiostoma belcheri','Oikopleura dioica','Ciona intestinalis','Botryllus schlosseri','Zebrafish','Human','Anolis carolinensis','Chicken','Frog','Trichinella spiralis','Nematode','Brugia malayi','Romanomermis culicivorax','Stegodyphus mimosarum','Ixodes scapularis','Limulus polyphemus','Daphnia pulex','Parhyale hawaiensis','Beetle','Fruitfly','Zootermopsis nevadensis','Strigamia maritima','Hypsibius dujardini','Ramazzottius varieornatus','Helobdella robusta','Capitella teleta','Lingula anatina','Crassostrea gigas','Pinctada fucata','Octopus bimaculoides','Lottia gigantea','Intoshia linei','Hymenolepis microstoma','Echinococcus multilocularis','Gyrodactylus salaris','Schmidtea mediterranea','Macrostomum lignano','Schistosoma japonicum','Adineta vaga'))
+hbx$grouping <- factor(hbx$groups, levels = c('Porifera','Anthozoa','Cnidaria','Ctenophora','Placozoa','Echinodermata','Hemichordata','Cephalochordata','Urochordata','Vertebrata','Arthropoda','Tardigrada','Nematoda','Annelida','Brachiopoda','Mollusca','Orthonectida','Platyhelminthes','Rotifera'))
 hbxplot <- ggplot(hbx, aes(x=species, y=family, fill=factor(value), group=grouping))
 hbxplot <- hbxplot + geom_point(size=5, color="steelblue3", shape=22, aes(group=grouping)) + scale_shape_identity()
 hbxplot <- hbxplot + theme_minimal()
@@ -17,5 +17,5 @@ hbxplot <- hbxplot + theme(panel.grid.major = element_blank(), panel.grid.minor 
 hbxplot <- hbxplot + theme(strip.background = element_rect(color="white", fill="thistle"))
 hbxplot <- hbxplot + theme(legend.position="none") + theme(plot.margin = margin(20, 20, 20, 20))
 hbxplot
-ggsave("/home/cristig/Desktop/Homeodomains/hbxPlot3.pdf",  width = 12, height = 26)
+ggsave("/home/cristig/Desktop/Homeodomains/hbxPlot3.pdf",  width = 13, height = 24)
 

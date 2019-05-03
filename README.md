@@ -53,5 +53,6 @@ Final classification step:
 
 `./lossGainhbx.pl hbxCountMelt.csv > hbxLossGain.csv` To produce a list of homeobox reduction and expansion for each animal clade/node.
 
+`./hbxResultsTable.pl <classifiedTable.tsv>` Takes produced classification log table from `homeoTreeParser.pl` to produce a table of gene evidence for each species and homeobox family.
 
 

@@ -43,6 +43,10 @@ Final classification step:
 
 `./homeoTreeParser.pl <IntermediateFiles> <classificationTable.tsv>` With directory containing all inferred trees in Newick format, and classificationTable.tsv as current classification log as verbose output from `classifyWrapper.pl`/`homeoClassifier.pl`.
 
+Additional Extra:
+
+`sh speciesReplace.sh <speciesList>` This script replaces any 4-letter species code as used in the pipeline with the species name for publication. Takes a speciesList.tsv as input. 
+
 ## Further graphical analyses
 
 `./allhbxcounttable.pl TreeFiles > hbxCount.csv` To produce a tablet of occupancy for each species and homeobox family.

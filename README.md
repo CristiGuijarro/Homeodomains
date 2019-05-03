@@ -26,7 +26,7 @@ And run InterProScan:
 
 Run the domain extraction program:
 
-`./domainPuller` - This one is hardcoded so may need adjustments to fit user directories etc.
+`./domainPuller` - This one is hardcoded so may need adjustments to fit user directories etc. For future use, this may remain hardcoded for a single command pipeline with full automation.
 
 Finally to actually classify:
 
@@ -37,19 +37,21 @@ Finally to actually classify:
 Then run the trees:
 
 `treebuilder.pl <FastaDir>`
-`SortFastaMore.pl <Intermediate File Directory with alignments>` To remove duplicate domains after trimming ahead of iqtree.
+`SortFastaMore.pl <Intermediate File Directory with alignments>` To remove duplicate domains after trimming ahead of IQ-TREE. (Not necessary in most cases).
 
 Final classification step:
 
-`./homeoTreeParser.pl <IntermediateFiles> <classificationTable.tsv>` With directory containing all inferred trees in Newick format, and classificationTable.tsv as current classification log as verbose output from classifyWrapper.pl.
+`./homeoTreeParser.pl <IntermediateFiles> <classificationTable.tsv>` With directory containing all inferred trees in Newick format, and classificationTable.tsv as current classification log as verbose output from `classifyWrapper.pl`/`homeoClassifier.pl`.
 
 ## Further graphical analyses
 
-`./allhbxcounttable.pl TreeFiles > hbxCount.csv`
-`./homeocountconvert.pl hbxCount.csv > hbxCountMelt.csv`
-`./tempHbx.pl hbxCountMelt.csv`
-`./tempHbx.pl hbxCountMelt.csv > hbxOrigins.csv`
-`./lossGainhbx.pl hbxCountMelt.csv > hbxLossGain.csv`
+`./allhbxcounttable.pl TreeFiles > hbxCount.csv` To produce a tablet of occupancy for each species and homeobox family.
+
+`./homeocountconvert.pl hbxCount.csv > hbxCountMelt.csv` To produce an easily parseable file for the rest of the display results, such as the R scripts and the following analyses.
+
+`./hbxOrigins.pl hbxCountMelt.csv > hbxOrigins.csv` To produce a list of homeobox families and the last shared ancestor within animals or before first splitting animals.
+
+`./lossGainhbx.pl hbxCountMelt.csv > hbxLossGain.csv` To produce a list of homeobox reduction and expansion for each animal clade/node.
 
 
 
